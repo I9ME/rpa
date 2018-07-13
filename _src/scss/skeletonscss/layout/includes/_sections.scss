@@ -1090,7 +1090,63 @@
 				}
 			}
 		}
-		
+
+		&--institucional{
+			& .Section{
+				&-subSection{
+					&-header{
+						padding-bottom: 0;
+						margin-bottom: 0;
+						&:after{
+							background: none;
+						}
+					
+						&-title{
+							font-weight: bolder;
+							font-size: 30px;
+						}
+					}
+					&--sobre{
+						background: $color_6;
+						& .Section{
+							&-subSection{
+								&-header{
+									&-title{
+										color: $color_12;
+									}
+								}
+								&-items{
+									&-item{
+										&-resume{
+											color: $color_15;
+										}
+									}
+								}
+							}
+						}
+					}
+					&--faleConosco{
+						background: $color_14;
+						& .Section{
+							&-subSection{
+								&-header{
+									&-title{
+										color: $color_1;
+									}
+								}
+								&-items{
+									&-item{
+										&-resume{
+											color: $color_1;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 
 						
 		&--cadastro{

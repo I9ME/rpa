@@ -1234,6 +1234,44 @@ strong {
   font-weight: normal;
 }
 
+.Section--institucional .Section-subSection-header {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Section--institucional .Section-subSection-header:after {
+  background: none;
+}
+
+.Section--institucional .Section-subSection-header-title {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.Section--institucional .Section-subSection--sobre {
+  background: #f0f0f0;
+}
+
+.Section--institucional .Section-subSection--sobre .Section-subSection-header-title {
+  color: #000000;
+}
+
+.Section--institucional .Section-subSection--sobre .Section-subSection-items-item-resume {
+  color: #888888;
+}
+
+.Section--institucional .Section-subSection--faleConosco {
+  background: #920ac8;
+}
+
+.Section--institucional .Section-subSection--faleConosco .Section-subSection-header-title {
+  color: #FFFFFF;
+}
+
+.Section--institucional .Section-subSection--faleConosco .Section-subSection-items-item-resume {
+  color: #FFFFFF;
+}
+
 .Section--cadastroRevendedor .Section-subSection--formBlock:nth-child(odd) {
   background: #f0f0f0;
 }
