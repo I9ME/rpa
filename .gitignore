@@ -3,3 +3,10 @@ node_modules
 
 # Logs #
 debug.log
+
+# JSON #
+package.json
+package-lock.json
+
+# gulpfile #
+gulpfile.js
