@@ -1,0 +1,59 @@
+.Site-footer{
+	background: $color_2;
+	& .Site-info{
+		background: rgba(0,0,0,0.15);
+		color: $color_1;
+		&-copyright{
+			text-align: center;
+			margin-top: 25px;
+			@media screen and (min-width: $break-sm){
+				text-align: left;
+				margin-top: 0px;
+			}
+		}
+	}
+	& .Newsletter{
+		padding-bottom: $v_spacing;
+	}
+	& .SocialBar{
+		display: flex !important;
+		flex-direction: column-reverse;
+		align-items: center;
+		&-item{
+			& a{
+				
+				&:hover{
+					background: $color_3;
+				}
+			}
+		}
+		@media screen and (min-width: $break-sm){
+			display: block !important;
+			flex-direction: inherit !important;
+			align-items: inherit !important;
+			&-title{
+				margin-right: 20px;
+			}
+
+		}
+	}// end  SocialBar
+}
+
+.Newsletter{
+	&--container{
+	text-align: center;
+	@media screen and (min-width: $break-sm){
+		border-right: 1px solid rgba(255,255,255,0.10);
+		padding-right: $v_spacing;
+		padding-bottom: 0px !important;
+		text-align: left;
+	}
+}
+	& legend{
+		color: $color_1;
+	}
+	& .Button{
+		padding-left: 40px !important;
+		padding-right: 40px !important;
+	}
+}

@@ -1,0 +1,36 @@
+.Site-header{
+	&-functions{
+		display: none;
+	}
+	@media screen and (min-width: $break-sm){
+		&-branding{
+			//flex:1;
+		}
+		&-functions{
+			position: absolute;
+			display: flex;
+			top: $v_spacing;
+			right: $h_spacing;
+			& .Button{
+				color: $color_1;
+				border-color: $color_1;
+				font-size: 13px;
+				font-weight: 300;
+				letter-spacing: 1px;
+				display: block;
+			}
+		}
+	}
+	&-brandingContainer{
+		height:auto;
+	}
+
+}
+
+
+.Branding{
+	&--img{
+	
+	}
+	
+}

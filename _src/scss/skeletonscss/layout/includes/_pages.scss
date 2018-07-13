@@ -1,0 +1,246 @@
+//====================================
+// HOME
+//====================================
+
+.Intro{
+	&--home{
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		padding-top: 100px;
+		height: auto;
+		min-height: 100vh;
+		& video{
+			display: none;
+		}
+		
+		@media screen and (min-width: $break-md){
+
+			//background-image: url('../images/ZoeWeb-banner-intro-lg.png');
+			background: none;
+			
+		}
+	}
+
+	&--background{
+		background-repeat: no-repeat;
+		//background-image: url('../images/Intro-revendedores-roupa-em-atacado--mobile.png');
+		background-color: $color_2;
+		@media screen and (min-width: $break-md){
+			background-size: cover;
+			background-image: url('../images/Intro-fabricantes-roupa-em-atacado.png');
+			background-attachment: fixed;
+		}
+	}
+	&--fabricante{
+		background-repeat: no-repeat;
+		//background-image: url('../images/Intro-revendedores-roupa-em-atacado--mobile.png');
+		-moz-background: linear-gradient(to bottom right, $color_2, $color_5);
+		-webkit-background: linear-gradient(to bottom right, $color_2, $color_5);
+		background: linear-gradient(to bottom right, $color_2, $color_5);
+
+		
+		@media screen and (min-width: $break-md){
+			background-size: cover;
+			background-image: url('../images/Intro-fabricantes-roupa-em-atacado.png');
+			background-attachment: fixed;
+		}
+	}
+	& .Captions{
+		color: #FFFFFF;
+		text-align: center;
+		&--title{
+			line-height: 170%;
+			font-size: 20px;
+			font-weight: 300;
+			margin-bottom: $v_spacing / 2;
+			& em{
+				width: 100%;
+			}
+		}
+		&--subtitle{
+			font-size: 16px;
+			font-weight: normal;
+			margin-bottom: $v_spacing / 1.6;
+			margin-left: auto;
+			margin-right: auto;
+			font-weight: 300;
+		}
+		& em{
+			background: $color_1;
+			color: $color_2;
+			padding: 2.5px 10px;
+			border-radius: 5px;
+			font-style: normal;
+			line-height: 0;
+		}
+		& .Line:not(.Line--3){
+			display: block;
+			width: 100%;
+			@media screen and (min-width: $break-md){
+				display: inline-block;
+				width: inherit;
+			}
+		}
+
+		& .Button,
+		& a.Button{
+			margin-bottom: $v_spacing / 1.6;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+		@media screen and (min-width: $break-sm){
+			width: auto;
+			left: 0;
+			&--title{
+				line-height: 170%;
+				font-size: 27px;
+				max-width: 700px;
+				margin-top: $v_spacing;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			&--subtitle{
+				font-size: 16px;
+				max-width: 500px;
+			}
+			& em{
+				padding: 6px 12px;
+			}
+			& .Button, a.Button{
+				letter-spacing: 3px;
+			}
+			
+		}
+		@media screen and (min-width: $break-md){
+			width: auto;
+			left: 0;
+			&--title{
+				line-height: 170%;
+				font-size: 27px;
+			}
+			&--subtitle{
+				font-size: 18px;
+				max-width: 600px;
+			}
+			& em{
+				padding: 8px 14px;
+			}
+			
+		}
+	}
+	&--page{
+		min-height: $sizeColumns_px * 6;
+		padding: 100px 0 0 0;
+		background-color: $color_2;
+		background-size: cover;
+		background-position: top center;
+		&-header{
+			height: calc(100% - 100px);
+			color: $color_1;
+		}
+		&-containerHeader{
+			height: auto;
+		}
+		&-title{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		&-subtitle{
+			font-size: 20px;
+			font-weight: normal;
+		}
+		@media screen and (min-width: $break-sm){
+			min-height: $sizeColumns_px * 10;
+			&-header{
+			}
+			&-containerHeader{
+			}
+			&-title{
+				font-size: 50px;
+			}
+			&-subtitle{
+				font-size: 24px;
+			}
+		}
+	}
+	&--blog{
+		min-height: $sizeColumns_px * 9;
+		padding: 218px 0 0 0;
+		background-color: $color_2;
+		background-size: cover;
+		background-position: top center;
+		&-header{
+			height: calc(100% - 220px);
+			color: $color_1;
+			@media screen and (min-width: $break-sm){
+				height: 350px;
+			}
+		}
+		&-containerHeader{
+			height: auto;
+		}
+		&-title{
+			font-size: 30px;
+			font-weight: bold;
+			text-shadow: 2px 2px 7px rgba(0,0,0,0.90);
+			& .label{
+				font-size: 14px;
+				letter-spacing: 3px;
+				font-weight: normal;
+			}
+		}
+		&-subtitle{
+			font-size: 20px;
+			font-weight: normal;
+		}
+		& .ButtonLink{
+			background: $color_9;
+			border-color: $color_9;
+			color: $color_1;
+		}
+		&-headerBar{
+			background: $color_3;
+			top: 0;
+			padding-top: 120px;
+			padding-bottom: 10px;
+			& .Form{
+				padding-top:12.5px;
+				padding-bottom: 12.5px;
+				&-input{
+					&[type="submit"]{
+						width: $v_spacing * 1.5;
+						&.Form-input--searchSubmit{
+							background-color: $color_9;
+							border-color: $color_9;
+						}
+					}
+				}
+			}
+			& .Site-header-branding{
+			display: none;
+			}
+			@media screen and (min-width: $break-md){
+				display: flex;
+				padding-top: 145px;
+				padding-bottom: 18px;
+				& .Site-header-branding{
+					display: block;
+				}
+			}
+			@media screen and (min-width: $break-lg){
+				padding-top: 166px;
+			}
+
+
+			& .u-flexSwitchReverse--mobile.u-flexDirectionRow{
+				@media screen and (max-width: $break-md){
+					flex-direction: column !important;
+				}
+			}
+
+		}
+	}
+}
