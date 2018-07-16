@@ -15,7 +15,7 @@ Escrita de CSS baseada em SUIT CSS - https://github.com/suitcss/suit
 }
 
 .color_3 {
-  background: #feb933;
+  background: #ffd800;
 }
 
 .color_4 {
@@ -210,8 +210,8 @@ strong {
 }
 
 .Button--border.hover:hover {
-  background: #feb933;
-  border-color: #feb933;
+  background: #ffd800;
+  border-color: #ffd800;
   color: #561d9a;
 }
 
@@ -629,7 +629,7 @@ strong {
 
 .Section .Section-table-tbody-item.check span i {
   display: block;
-  background: #feb933;
+  background: #ffd800;
 }
 
 .Section .Section-table-tbody-item.check span i svg {
@@ -669,7 +669,7 @@ strong {
 }
 
 .Section--style1.Section--styleBanner .Section-header-title--box {
-  color: #feb933;
+  color: #ffd800;
   background: #561d9a;
 }
 
@@ -689,8 +689,8 @@ strong {
 
 .Section--style1 .ReadMore--icon {
   color: #FFFFFF;
-  background: #feb933;
-  border-color: #feb933;
+  background: #ffd800;
+  border-color: #ffd800;
 }
 
 .Section--style1 .ReadMore--icon:hover {
@@ -779,7 +779,7 @@ strong {
 }
 
 .Section--style2 .Section-header-title {
-  color: #feb933;
+  color: #ffd800;
 }
 
 .Section--style2 .Section-header-subtitle {
@@ -788,7 +788,7 @@ strong {
 
 .Section--style2.Section--styleBanner .Section-header-title--box {
   color: #561d9a;
-  background: #feb933;
+  background: #ffd800;
 }
 
 .Section--style2 .ReadMore {
@@ -807,12 +807,12 @@ strong {
 
 .Section--style2 .ReadMore--icon {
   color: #FFFFFF;
-  background: #feb933;
-  border-color: #feb933;
+  background: #ffd800;
+  border-color: #ffd800;
 }
 
 .Section--style2 .Section-items-item-title {
-  color: #feb933;
+  color: #ffd800;
 }
 
 .Section--style2 .Section-items-item-subtitle {
@@ -854,14 +854,14 @@ strong {
 }
 
 .Section--style2 .Button--background {
-  border-color: #feb933;
-  background: #feb933;
+  border-color: #ffd800;
+  background: #ffd800;
   color: #561d9a;
   font-weight: bold;
 }
 
 .Section--style2 .Button--background.Button--border {
-  border-color: #feb933;
+  border-color: #ffd800;
   color: #561d9a;
 }
 
@@ -888,7 +888,7 @@ strong {
 
 .Section--style3 {
   color: #FFFFFF;
-  background: #feb933;
+  background: #ffd800;
 }
 
 .Section--style3 .Section-header-title {
@@ -900,7 +900,7 @@ strong {
 }
 
 .Section--style3.Section--styleBanner .Section-header-title--box {
-  color: #feb933;
+  color: #ffd800;
   background: #561d9a;
 }
 
@@ -914,12 +914,12 @@ strong {
 }
 
 .Section--style3 .ReadMore--background {
-  color: #feb933;
+  color: #ffd800;
   background: #561d9a;
 }
 
 .Section--style3 .ReadMore--icon {
-  color: #feb933;
+  color: #ffd800;
   background: #561d9a;
   border-color: #561d9a;
 }
@@ -999,7 +999,7 @@ strong {
 .Section--crossStyleColor_1 .Section-header .Button:hover {
   border-color: #561d9a !important;
   background: #561d9a !important;
-  color: #feb933 !important;
+  color: #ffd800 !important;
 }
 
 .Section-subSection-header {
@@ -1059,7 +1059,7 @@ strong {
 }
 
 .Section--buscaRoupa .Section-header-subtitle {
-  color: #feb933;
+  color: #ffd800;
   font-weight: normal;
   font-size: 30px;
 }
@@ -1072,7 +1072,7 @@ strong {
 }
 
 .Section--buscaRoupa .Section-items-item-resume {
-  color: #feb933;
+  color: #ffd800;
 }
 
 .Section--polos .Section-items-item-title {
@@ -1159,25 +1159,6 @@ strong {
   font-weight: bolder;
 }
 
-.Section--produtos .Button--border.hover:hover {
-  background: #FFFFFF;
-  border-color: #920ac8;
-  color: #561d9a;
-}
-
-.Section--produtos .Button--border {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
-  font-weight: normal;
-}
-
-.Section--produtos .Button--background {
-  border-color: #FFFFFF;
-  background: #920ac8;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-
 .Section--blog {
   background: #f0f0f0;
 }
@@ -1205,7 +1186,7 @@ strong {
   width: 70px;
   height: 2px;
   content: "";
-  background: #feb933;
+  background: #ffd800;
 }
 
 .Section--blog .Section-items-item-content-color1 {
@@ -1234,15 +1215,6 @@ strong {
   font-weight: normal;
 }
 
-.Section--institucional .Section-subSection-header {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.Section--institucional .Section-subSection-header:after {
-  background: none;
-}
-
 .Section--institucional .Section-subSection-header-title {
   font-weight: bolder;
   font-size: 30px;
@@ -1250,6 +1222,10 @@ strong {
 
 .Section--institucional .Section-subSection--sobre {
   background: #f0f0f0;
+}
+
+.Section--institucional .Section-subSection--sobre .Section-subSection-header:after {
+  background: #000000;
 }
 
 .Section--institucional .Section-subSection--sobre .Section-subSection-header-title {
@@ -1260,8 +1236,36 @@ strong {
   color: #888888;
 }
 
+.Section--institucional .Section-subSection--sobre .Button--border.hover:hover {
+  background: #920ac8;
+  border-color: #920ac8;
+  color: #FFFFFF;
+}
+
+.Section--institucional .Section-subSection--sobre .Button--border {
+  border-color: #920ac8;
+  color: #920ac8;
+  font-weight: bolder;
+}
+
+.Section--institucional .Section-subSection--sobre .Button--background {
+  border-color: #920ac8;
+  background: rgba(0, 0, 0, 0);
+  color: #920ac8;
+  font-weight: bold;
+}
+
 .Section--institucional .Section-subSection--faleConosco {
   background: #920ac8;
+}
+
+.Section--institucional .Section-subSection--faleConosco .Section-subSection-header {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Section--institucional .Section-subSection--faleConosco .Section-subSection-header:after {
+  background: none;
 }
 
 .Section--institucional .Section-subSection--faleConosco .Section-subSection-header-title {
@@ -1270,6 +1274,64 @@ strong {
 
 .Section--institucional .Section-subSection--faleConosco .Section-subSection-items-item-resume {
   color: #FFFFFF;
+}
+
+.Section--institucional .Section-subSection--faleConosco .Button--border.hover:hover {
+  background: rgba(0, 0, 0, 0);
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.Section--institucional .Section-subSection--faleConosco .Button--border {
+  border-color: #ffd800;
+  color: #920ac8;
+  font-weight: bolder;
+}
+
+.Section--institucional .Section-subSection--faleConosco .Button--background {
+  border-color: #ffd800;
+  background: #ffd800;
+  color: #920ac8;
+  font-weight: bold;
+}
+
+.Section--newfooter {
+  background: linear-gradient(to right bottom, #920ac8, #ba4dff);
+}
+
+.Section--newfooter .Section-header:after {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 2px;
+  bottom: 0px;
+  content: "";
+  background: #FFFFFF;
+  left: 18%;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.Section--newfooter .Section-header-title {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.Section--newfooter .Section-items-item-title {
+  color: #510c81;
+  font-size: 14px;
+}
+
+.Section--newfooter .Section-items-item-resume {
+  color: #ffd800;
+  font-size: 15px;
+}
+
+.Section--newfooter .Section-items-item-resume--color_1 {
+  color: #FFFFFF;
+  font-size: 15px;
 }
 
 .Section--cadastroRevendedor .Section-subSection--formBlock:nth-child(odd) {
@@ -1666,7 +1728,7 @@ strong {
 }
 
 .Intro--blog-headerBar {
-  background: #feb933;
+  background: #ffd800;
   top: 0;
   padding-top: 120px;
   padding-bottom: 10px;
@@ -1745,7 +1807,7 @@ strong {
 }
 
 .Site-footer .SocialBar-item a:hover {
-  background: #feb933;
+  background: #ffd800;
 }
 
 @media screen and (min-width: 768px) {
@@ -3574,7 +3636,7 @@ th.u-isShown {
 }
 
 .u-isScrollOn .Navigation--menu--style2 .Navigation-items-item .NavigationLink:hover {
-  color: #feb933;
+  color: #ffd800;
 }
 
 .u-isScrollOn .Navigation--menu--style2 .Navigation-items .Navigation--subMenu {
@@ -3586,7 +3648,7 @@ th.u-isShown {
 }
 
 .u-isScrollOn .Navigation--menu--style2 .Navigation-items .Navigation--subMenu .NavigationLink:hover {
-  color: #feb933;
+  color: #ffd800;
 }
 
 .u-isScrollOn .Navigation--content {
@@ -3807,11 +3869,11 @@ th.u-isShown {
 }
 
 .Navigation--menu--style1 {
-  background: #feb933;
+  background: #ffd800;
 }
 
 .Navigation--menu--style1 .Navigation-items-item {
-  background: #feb933;
+  background: #ffd800;
   font-weight: bold;
 }
 
@@ -3835,11 +3897,11 @@ th.u-isShown {
 }
 
 .Navigation--menu--style1 .Navigation-items .Navigation--subMenu {
-  background: #feb933;
+  background: #ffd800;
 }
 
 .Navigation--menu--style1 .Navigation-items .Navigation--subMenu:before {
-  border-bottom-color: #feb933;
+  border-bottom-color: #ffd800;
 }
 
 .Navigation--menu--style2 .Navigation-items-item {
@@ -3852,7 +3914,7 @@ th.u-isShown {
 }
 
 .Navigation--menu--style2 .Navigation-items-item .NavigationLink:hover {
-  color: #feb933;
+  color: #ffd800;
 }
 
 .Navigation--menu--style2 .Navigation-items-item .NavigationLink--backNav {
@@ -3918,13 +3980,13 @@ th.u-isShown {
 }
 
 .Navigation--content--style1 {
-  background: #feb933;
+  background: #ffd800;
   left: 0px;
 }
 
 .Navigation--content--style1 .Navigation-items-item {
   overflow: hidden;
-  background: #feb933;
+  background: #ffd800;
 }
 
 .Navigation--content--style2 {
@@ -4080,7 +4142,7 @@ th.u-isShown {
     color: #FFFFFF;
   }
   .Navigation.Navigation--header .Navigation-items-item .NavigationLink:hover {
-    color: #feb933;
+    color: #ffd800;
   }
 }
 
@@ -4148,7 +4210,7 @@ th.u-isShown {
 }
 
 .Navigation--footer .Navigation-section a:hover {
-  color: #feb933;
+  color: #ffd800;
 }
 
 .NavigationButton {
@@ -6635,8 +6697,8 @@ input[type="submit"] {
     padding-right: 40px;
   }
   .Form--style2 .Form-input[type="submit"]:hover {
-    background: #feb933;
-    border-color: #feb933;
+    background: #ffd800;
+    border-color: #ffd800;
     color: #561d9a;
   }
 }

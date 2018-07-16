@@ -1007,28 +1007,7 @@
 					}
 				}
 			}
-			& .Button{
-				&--border{
-					&.hover{
-						&:hover{
-							background: $color_1;
-							border-color: $color_14;
-							color: $color_2;
-						}
-					}
-				}
-			}
-			& .Button--border{
-					border-color: $color_1;
-					color: $color_1;
-					font-weight: normal;	
-			}
-			& .Button--background{
-					border-color: $color_1;
-					background: $color_14;
-					color: $color_1;
-					font-weight: bold;	
-			}
+			
 		}
 
 		&--blog{
@@ -1094,13 +1073,7 @@
 		&--institucional{
 			& .Section{
 				&-subSection{
-					&-header{
-						padding-bottom: 0;
-						margin-bottom: 0;
-						&:after{
-							background: none;
-						}
-					
+					&-header{					
 						&-title{
 							font-weight: bolder;
 							font-size: 30px;
@@ -1111,6 +1084,9 @@
 						& .Section{
 							&-subSection{
 								&-header{
+									&:after{
+										background:$color_12;
+									}
 									&-title{
 										color: $color_12;
 									}
@@ -1124,12 +1100,39 @@
 								}
 							}
 						}
+						& .Button{
+								&--border{
+									&.hover{
+										&:hover{
+											background: $color_14;
+											border-color: $color_14;
+											color: $color_1;
+										}
+									}
+								}
+							}
+							& .Button--border{
+									border-color: $color_14;
+									color: $color_14;
+									font-weight: bolder;	
+							}
+							& .Button--background{
+									border-color: $color_14;
+									background: rgba(0,0,0,0);
+									color: $color_14;
+									font-weight: bold;	
+							}
 					}
 					&--faleConosco{
 						background: $color_14;
 						& .Section{
 							&-subSection{
 								&-header{
+									padding-bottom: 0;
+									margin-bottom: 0;
+									&:after{
+										background: none;
+									}
 									&-title{
 										color: $color_1;
 									}
@@ -1143,11 +1146,74 @@
 								}
 							}
 						}
+						& .Button{
+								&--border{
+									&.hover{
+										&:hover{
+											background: rgba(0,0,0,0);
+											border-color: $color_1;
+											color: $color_1;
+										}
+									}
+								}
+							}
+							& .Button--border{
+									border-color: $color_3;
+									color: $color_14;
+									font-weight: bolder;	
+							}
+							& .Button--background{
+									border-color: $color_3;
+									background: $color_3;
+									color: $color_14;
+									font-weight: bold;	
+							}
+
 					}
 				}
 			}
 		}
-
+		&--newfooter{
+			background: linear-gradient(to right bottom, $color_14, $color_16);
+			& .Section{
+				&-header{
+					&:after{
+						position: relative;
+						display: block;
+						width: 80px;
+						height: 2px;
+						bottom: 0px;
+						content: "";
+						background: $color_1;
+						left: 18%;
+						-moz-transform: translateX(-50%);
+						-webkit-transform: translateX(-50%);
+						transform: translateX(-50%);
+					}
+					&-title{
+						color: $color_1;
+						font-weight: normal;
+						font-size: 15px;
+					}
+				}
+				&-items{
+					&-item{
+						&-title{
+							color: $color_17;
+							font-size: 14px;
+						}
+						&-resume{
+							color: $color_3;
+							font-size: 15px;
+							&--color_1{
+								color: $color_1;
+								font-size: 15px;
+							}
+						}
+					}
+				}
+			}
+		}
 						
 		&--cadastro{
 		&Revendedor{
