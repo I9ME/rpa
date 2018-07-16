@@ -5,6 +5,7 @@ node_modules
 
 
 # Logs #
+<<<<<<< HEAD
 
 debug.log
 
@@ -21,3 +22,13 @@ package-lock.json
 # gulpfile #
 
 gulpfile.js
+=======
+debug.log
+
+# JSON #
+package.json
+package-lock.json
+
+# gulpfile #
+gulpfile.js
+>>>>>>> 86250ac74b58ea1611d5a85b2259a10b7c02ddc3
