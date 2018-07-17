@@ -1108,6 +1108,12 @@ strong {
   color: #FFFFFF;
 }
 
+.Section--segmentos .Button--marcas.hover:hover {
+  background: #561d9a;
+  border-color: #561d9a;
+  color: #FFFFFF;
+}
+
 .Section--segmentos .Button--border.hover:hover {
   background: #FFFFFF;
   border-color: #FFFFFF;
@@ -1125,6 +1131,13 @@ strong {
   background: rgba(0, 0, 0, 0);
   color: #FFFFFF;
   font-weight: bold;
+}
+
+.Section--segmentos .Button--background--marcas {
+  border-color: #920ac8;
+  background: rgba(0, 0, 0, 0);
+  color: #920ac8;
+  font-weight: normal;
 }
 
 .Section--parceiros {
@@ -1297,13 +1310,14 @@ strong {
 
 .Section--newfooter {
   background: linear-gradient(to right bottom, #920ac8, #ba4dff);
+  background-size: cover;
 }
 
 .Section--newfooter .Section-header:after {
   position: relative;
   display: block;
   width: 80px;
-  height: 2px;
+  height: 1px;
   bottom: 0px;
   content: "";
   background: #FFFFFF;
@@ -1317,6 +1331,11 @@ strong {
   color: #FFFFFF;
   font-weight: normal;
   font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.Section--newfooter .Section-header-content {
+  padding-bottom: 5px;
 }
 
 .Section--newfooter .Section-items-item-title {
@@ -1332,6 +1351,31 @@ strong {
 .Section--newfooter .Section-items-item-resume--color_1 {
   color: #FFFFFF;
   font-size: 15px;
+}
+
+.Section--footerSocial .Section {
+  background: rgba(0, 0, 0, 0);
+}
+
+.Section--footerSocial .Section-content {
+  background: #FFFFFF;
+}
+
+.Section--footerSocial .Section-items-item--face {
+  background: #589de0;
+}
+
+.Section--footerSocial .Section-items-item--insta {
+  background: #96e4e2;
+}
+
+.Section--footerSocial .Section-items-item--yt {
+  background: #ff4c52;
+}
+
+.Section--footerSocial .Section-items-item-title {
+  font-size: 18px;
+  color: #FFFFFF;
 }
 
 .Section--cadastroRevendedor .Section-subSection--formBlock:nth-child(odd) {
@@ -1454,14 +1498,14 @@ strong {
 .Site--fabricante .Site-footer .SocialBar-item .u-buttonLink {
   border-width: 2px;
   border-style: solid;
-  border-color: #256fce;
-  color: #256fce;
+  border-color: #589de0;
+  color: #589de0;
 }
 
 .Site--fabricante .Site-footer .SocialBar-item .u-buttonLink:hover {
-  border-color: #256fce;
+  border-color: #589de0;
   color: #FFFFFF;
-  background: #256fce;
+  background: #589de0;
 }
 
 .Site--fabricante .Section--footerInfo {

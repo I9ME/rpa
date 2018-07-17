@@ -960,15 +960,21 @@
 				}
 			}
 			& .Button--border{
-					border-color: $color_1;
-					color: $color_1;
-					font-weight: normal;	
+				border-color: $color_1;
+				color: $color_1;
+				font-weight: normal;	
 			}
 			& .Button--background{
-					border-color: $color_1;
+				&--marcas{
+					border-color: $color_14;
 					background: rgba(0,0,0,0);
-					color: $color_1;
-					font-weight: bold;	
+					color: $color_14;
+					font-weight: normal;
+				}
+				border-color: $color_1;
+				background: rgba(0,0,0,0);
+				color: $color_1;
+				font-weight: bold;	
 			}
 		}
 		&--parceiros{
@@ -1175,13 +1181,14 @@
 		}
 		&--newfooter{
 			background: linear-gradient(to right bottom, $color_14, $color_16);
+			background-size: cover;
 			& .Section{
 				&-header{
 					&:after{
 						position: relative;
 						display: block;
 						width: 80px;
-						height: 2px;
+						height: 1px;
 						bottom: 0px;
 						content: "";
 						background: $color_1;
@@ -1194,6 +1201,10 @@
 						color: $color_1;
 						font-weight: normal;
 						font-size: 15px;
+						letter-spacing: 1px;
+					}
+					&-content{
+						padding-bottom: 5px;
 					}
 				}
 				&-items{
@@ -1209,6 +1220,31 @@
 								color: $color_1;
 								font-size: 15px;
 							}
+						}
+					}
+				}
+			}
+		}
+		&--footerSocial{
+			& .Section{
+				background: rgba(0,0,0,0);
+				&-content{
+					background: $color_1;
+				}
+				&-items{
+					&-item{
+						&--face{
+							background:$color_13;
+						}
+						&--insta{
+							background: $color_18;
+						}
+						&--yt{
+							background: $color_19;
+						}
+						&-title{
+							font-size: 18px;
+							color: $color_1;
 						}
 					}
 				}

@@ -1,4 +1,4 @@
-<section class="Section--institucional u-flexFlowWrap u-displayFlex">
+<section class="Section--institucional u-flexFlowWrap u-displayFlex u-paddingTop">
 	<div class="Section-subSection--sobre u-displayFlex u-flexDirectionColumn u-paddingHorizontal--vrt  u-size12of24">
 		<header class="Section-subSection-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
 			<h3 class="Section-subSection-header-title">Sobre Nós</h3>
@@ -17,7 +17,7 @@
 		</header>
 		<div class="Section-subSection-content">
 			<p class="Section-subSection-items-item-resume u-paddingHorizontal--inter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit auctor eros, sit amet gravida purus convallis sit amet.</p>
-			<form class="Form Form--style1">
+			<form method="POST" action="" class="Form Form--style1">
 				<fieldset class="Form-fieldset">
 				 	<div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-flexSwitchReverse--mobile u-displayFlex u-flexDirectionRow is-animating u-marginRight">
 					 	<div class="Form-row u-size12of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight--inter">

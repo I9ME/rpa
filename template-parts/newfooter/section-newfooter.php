@@ -1,4 +1,4 @@
-<section class="Section--newfooter u-displayFlex u-flexDirectionColumn">
+<section class="Section--newfooter u-displayFlex u-flexDirectionColumn u-paddingHorizontal">
 	<header class="Section-content u-paddingTop u-displayFlex u-flexAlignItemsCenter u-flexJustifyContentCenter">
 		<a href="#">
 			<figure class="Section-content-figure">
@@ -7,12 +7,12 @@
 		</a>
 	</header>
 	<div class="Section-content u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter u-sizeFull u-paddingHorizontal--vrt">
-		<ul class="Section-items u-displayFlex u-flexFlowWrap u-alignItemsCenter u-flexJustifyContentSpaceAround">
+		<ul class="Section-items u-displayFlex u-flexFlowWrap u-alignItemsCenter u-flexJustifyContentCenter">
 			<li class="Section-items-item u-size4of24 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
-					<div class="u-displayFlex u-flexDirectionRow">
-						<img src="#">
-						<a href="#" class="Section-header-title u-size12of24"><strong>POLOS</strong> DE MODA</a>
+					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
+						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<a href="#" class="Section-header-title u-size12of24 u-marginLeft--inter"><strong>POLOS</strong> DE MODA</a>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -32,9 +32,9 @@
 			</li>
 			<li class="Section-items-item u-size4of24 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
-					<div class="u-displayFlex u-flexDirectionRow">
-						<img src="#">
-						<a href="#" class="Section-header-title u-size12of24"><strong>SEGMENTOS</strong> DE MODA</a>
+					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
+						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/segmentos.png">
+						<a href="#" class="Section-header-title u-size12of24 u-marginLeft--inter"><strong>SEGMENTOS</strong> DE MODA</a>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -60,9 +60,9 @@
 			</li>
 			<li class="Section-items-item u-size4of24 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
-					<div class="u-displayFlex u-flexDirectionRow">
-						<img src="#">
-						<a href="#" class="Section-header-title u-size12of24"><strong>MARCAS</strong> DE ATACADO</a>
+					<div class="Section-header-content Section-header-content u-displayFlex u-flexDirectionRow">
+						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/marcas.png">
+						<a href="#" class="Section-header-title u-size12of24 u-marginLeft--inter"><strong>MARCAS</strong> DE ATACADO</a>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -76,9 +76,9 @@
 			</li>
 			<li class="Section-items-item u-size4of24 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
-					<div class="u-displayFlex u-flexDirectionRow">
-						<img src="#">
-						<a href="#" class="Section-header-title u-size23of24">CATÁLOGO DE <strong>PRODUTOS</strong></a>
+					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
+						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<a href="#" class="Section-header-title u-size23of24 u-marginLeft--inter">CATÁLOGO DE <strong>PRODUTOS</strong></a>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -98,9 +98,9 @@
 			</li>
 			<li class="Section-items-item u-size4of24 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
-					<div class="u-displayFlex u-flexDirectionRow">
-						<img src="#">
-						<a href="#" class="Section-header-title u-size23of24">RECEBA VÁRIOS <strong>ORÇAMENTOS</strong></a>
+					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
+						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<a href="#" class="Section-header-title u-size23of24 u-marginLeft--inter">RECEBA VÁRIOS <strong>ORÇAMENTOS</strong></a>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -117,9 +117,9 @@
 			</li>
 			<li class="Section-items-item u-size4of24 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
-					<div class="u-displayFlex u-flexDirectionRow">
-						<img src="#">
-						<a href="#" class="Section-header-title u-size12of24">MAIS <strong>INFORMAÇÕES</strong></a>
+					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
+						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<a href="#" class="Section-header-title u-size12of24 u-marginLeft--inter">MAIS <strong>INFORMAÇÕES</strong></a>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -136,9 +136,9 @@
 			</li>
 			<li class="Section-items-item u-size4of24 u-paddingHorizontal--inter">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
-					<div class="u-displayFlex u-flexDirectionRow">
-						<img src="#">
-						<a href="#" class="Section-header-title u-size23of24">NOSSO <strong>ATENDIMENTO</strong></a>
+					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
+						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<a href="#" class="Section-header-title u-marginLeft--inter">NOSSO <strong>ATENDIMENTO</strong></a>
 					</div>
 				</header>
 			</li>
