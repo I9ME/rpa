@@ -4,7 +4,7 @@
 	
 ?>
 
-<section id="up" class="Section Section--intro Intro Intro--home Intro--background Section--buscaRoupa Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter">	
+<section id="up" class="Section Section--intro Intro Intro--home Intro--background Section--buscaRoupa Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-paddingHorizontal--inter u-flexJustifyContentCenter">	
 	
 
 	<div class="u-paddingVertical u-size24of24 Captions u-positionRelative u-displayBlock u-maxSize--container u-alignCenterBox">
@@ -23,7 +23,7 @@
 					<div class="Form-line u-flex u-flexDirectionRow u-flexSwitchReverse--mobile">
 						<div class="Form-row u-size24of24 u-displayBlock u-positionRelative u-marginRight--inter u-marginBottom--inter">
 							<i class="FigureIcon FigureIcon--lupa"></i>
-							<input class="Form-input Form-input--text Form-border--0 u-borderRadius10 u-sizeFull" type="text" name="search" placeholder="Procure o seu objeto aqui">
+							<input class="Form-input Form-input--text Form-border--0 u-borderRadius10 u-sizeFull" type="text" name="search" placeholder="Qual produto você procura?">
 						</div>
 						<div class="Form-row u-size10of24 u-displayBlock u-positionRelative u-marginBottom--inter">
 							<a class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter u-justifyContentCenter u-borderRadius10 Button--mediumSize hover is-animating u-hasIcon u-isScrollDown u-sizeFull" href="#" style="height: 75px;">
@@ -42,7 +42,7 @@
 				<li class="Section-items-item u-paddingVertical u-alignCenter">
 					<a class="Section-items-item-resume" href="#">Pesquisa por produtos</a>
 				</li>
-				<li class="Section-items-item Section-items-item-lateralBar u-paddingVertical u-alignCenter">
+				<li class="Section-items-item Section-items-item--lateralBar u-paddingVertical u-alignCenter">
 					<a class="Section-items-item-resume" href="#"> Pesquisa por marcas</a>
 				</li>
 				<li class="Section-items-item u-paddingVertical u-alignCenter">

@@ -897,12 +897,13 @@
 			}
 			& .Section-items{
 				&-item{
-					&-lateralBar{
+					&--lateralBar{
 						border-style: solid;
 						border-top: 1px;
 						border-bottom: 1px;
 						border-color: $color_1;
 					}
+
 					&-resume{
 						color: $color_3;
 					}
@@ -1012,6 +1013,28 @@
 						font-weight: bolder;
 					}
 				}
+			}
+			& .Button{
+				&--border{
+					&.hover{
+						&:hover{
+							background: rgba(0,0,0,0);
+							border-color: $color_14;
+							color: $color_14;
+						}
+					}
+				}
+			}
+			& .Button--border{
+					border-color: $color_14;
+					color: $color_14;
+					font-weight: bolder;	
+			}
+			& .Button--background{
+					border-color: $color_14;
+					background: $color_14;
+					color: $color_1;
+					font-weight: bold;	
 			}
 			
 		}
@@ -1246,6 +1269,19 @@
 							font-size: 18px;
 							color: $color_1;
 						}
+					}
+				}
+			}
+		}
+		&--scrollDown{
+			background:rgba(0,0,0,0);
+			& .Section{
+				background:rgba(0,0,0,0);
+				&-header{
+					top:-40px;
+					background:rgba(0,0,0,0);
+					&-figure{
+						background:rgba(0,0,0,0);
 					}
 				}
 			}

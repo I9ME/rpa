@@ -1064,7 +1064,7 @@ strong {
   font-size: 30px;
 }
 
-.Section--buscaRoupa .Section-items-item-lateralBar {
+.Section--buscaRoupa .Section-items-item--lateralBar {
   border-style: solid;
   border-top: 1px;
   border-bottom: 1px;
@@ -1105,12 +1105,6 @@ strong {
 
 .Section--segmentos .Section-items-item-resume {
   font-size: 15px;
-  color: #FFFFFF;
-}
-
-.Section--segmentos .Button--marcas.hover:hover {
-  background: #561d9a;
-  border-color: #561d9a;
   color: #FFFFFF;
 }
 
@@ -1170,6 +1164,25 @@ strong {
 .Section--produtos .Section-items-item-link {
   color: #920ac8;
   font-weight: bolder;
+}
+
+.Section--produtos .Button--border.hover:hover {
+  background: rgba(0, 0, 0, 0);
+  border-color: #920ac8;
+  color: #920ac8;
+}
+
+.Section--produtos .Button--border {
+  border-color: #920ac8;
+  color: #920ac8;
+  font-weight: bolder;
+}
+
+.Section--produtos .Button--background {
+  border-color: #920ac8;
+  background: #920ac8;
+  color: #FFFFFF;
+  font-weight: bold;
 }
 
 .Section--blog {
@@ -1376,6 +1389,23 @@ strong {
 .Section--footerSocial .Section-items-item-title {
   font-size: 18px;
   color: #FFFFFF;
+}
+
+.Section--scrollDown {
+  background: rgba(0, 0, 0, 0);
+}
+
+.Section--scrollDown .Section {
+  background: rgba(0, 0, 0, 0);
+}
+
+.Section--scrollDown .Section-header {
+  top: -40px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.Section--scrollDown .Section-header-figure {
+  background: rgba(0, 0, 0, 0);
 }
 
 .Section--cadastroRevendedor .Section-subSection--formBlock:nth-child(odd) {

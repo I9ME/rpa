@@ -26,6 +26,8 @@
 
 <?php wp_footer(); ?>
 
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/js/owl.carousel.min.js'; ?>"></script>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/owl.carousel.min.css'; ?>" />
 
 <script type="text/javascript">
 _linkedin_data_partner_id = "319177";
