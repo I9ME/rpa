@@ -26,7 +26,13 @@
 
 <?php wp_footer(); ?>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/js/owl.carousel.min.js'; ?>"></script>
+<!-- 
+<script src="<?php // echo  get_template_directory_uri() . '/assets/js/main.debug.js'; ?>"></script>
+
+<script src="<?php // echo get_template_directory_uri() . '/assets/js/jquery.min.js'; ?>"></script> -->
+
+<script src="<?php echo get_template_directory_uri() . '/assets/js/owl.carousel.min.js'; ?>"></script>
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/owl.carousel.min.css'; ?>" />
 
 <script type="text/javascript">

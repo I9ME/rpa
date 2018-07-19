@@ -97,17 +97,17 @@ $('#depoimentos-carousel').owlCarousel({
     responsive:{
         0:{
             items:1,
-            margin:0,
+            margin:50,
            //nav:false
         },
         768:{
-            items:2,
-            margin:0,
+            items:1,
+            margin:50,
             //nav:false
         },
         960:{
-            items:3,
-            margin:0,
+            items:1,
+            margin:50,
             //nav:true,
         }
     }

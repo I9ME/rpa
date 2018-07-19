@@ -5,7 +5,7 @@
 		</h3>
 	</header>
 	<div class="Section-content u-flex u-flexAlignItemsCenter u-paddingVertical u-sizeFull">
-		<ul class="Section-items u-flex u-flexJustifyContentCenter u-flexDirectionRow u-flexAlignBaseLine u-sizeFull">
+		<ul id="polos-carousel" class="Section-items u-flex u-flexJustifyContentCenter u-flexDirectionRow u-flexAlignBaseLine u-sizeFull">
 			<li class="Section-items-item SaoPaulo u-marginVertical--inter">
 				<a href="#" class="Section-items-item-content ">
 					<figure class="Section-items-item-figure">

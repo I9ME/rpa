@@ -5,7 +5,7 @@
 		</h3>
 	</header>
 	<div class="Section-content u-displayFlex u-justifyContentCenter">
-		<ul id="depoimentos-carousel" class="Section-items u-displayFlex u-justifyContentCenter u-flexFolowSize u-sizeFull owl-carousel">
+		<ul id="depoimentos-carousel" class="Section-items u-displayFlex u-justifyContentCenter u-flexFolowSize u-sizeFull owl-theme owl-carousel">
 			<li class="Section-items-item u-sizeFull">
 				<div class="Section-items-item-content u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter u-justifyContentCenter u-sizeFull u-heightFull">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/images/quote.png">
