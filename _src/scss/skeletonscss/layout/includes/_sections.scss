@@ -912,6 +912,10 @@
 		}
 		&--polos{
 			& .Section-items{
+					& .owl-item{
+						display: flex;
+						align-items: baseline;
+					}
 					&-item{
 						&-title{
 							font-size: 15px;

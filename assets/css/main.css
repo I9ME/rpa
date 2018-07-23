@@ -1075,6 +1075,11 @@ strong {
   color: #ffd800;
 }
 
+.Section--polos .Section-items .owl-item {
+  display: flex;
+  align-items: baseline;
+}
+
 .Section--polos .Section-items-item-title {
   font-size: 15px;
 }

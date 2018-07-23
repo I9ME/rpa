@@ -89,24 +89,24 @@ $(function(){
 
 
 
-$('#depoimentos-carousel').owlCarousel({
+$('#polos-carousel').owlCarousel({
     loop:true,
     dots: true,
     nav: true,
     responsiveClass: true,
     responsive:{
         0:{
-            items:1,
+            items:2,
             margin:50,
            //nav:false
         },
         768:{
-            items:1,
+            items:3,
             margin:50,
             //nav:false
         },
         960:{
-            items:1,
+            items:6,
             margin:50,
             //nav:true,
         }
