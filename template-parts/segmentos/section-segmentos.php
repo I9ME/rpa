@@ -1,7 +1,7 @@
-<section class="Section Section--style1 Section--segmentos u-flex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter u-paddingBottom u-paddingVertical">
+<section class="Section Section--style1 Section--segmentos u-flex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter u-paddingBottom u-paddingVertical_">
 	<div class="Section-content">
 		<ul class="Section-items u-flex u-flexFlowWrap u-flexJustifyContentCenter">
-			<li class="Section-items-item u-size5of24--px">
+			<li class="Section-items-item">
 				<a href="#">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/modapraia.png">
@@ -11,7 +11,7 @@
 					</figure>
 				</a>
 			</li>
-			<li class="Section-items-item u-size5of24--px">
+			<li class="Section-items-item">
 				<a href="#">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/roupafeminina.png">
@@ -21,7 +21,7 @@
 					</figure>
 				</a>
 			</li>
-			<li class="Section-items-item u-size5of24--px">
+			<li class="Section-items-item">
 				<a href="#">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/roupamasculina.png">
@@ -33,19 +33,19 @@
 			</li>
 
 			<!-- MINI CTA -->
-			<li class="Section-items-item u-size5of24--px">
+			<li class="Section-items-item">
 				<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 					<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/roupafesta.png">
 					<a href="#">
-					<figcaption class="Section-items-item-figure-figureCaptionCta u-positionAbsolute u-paddingHorizontal--vrt--inter--px u-sizeFull u-heightFull u-flex u-flexDirectionColumn u-flexJustifyContentCenter">
+					<figcaption class="Section-items-item-figure-figureCaptionCta u-positionAbsolute u-paddingHorizontal--vrt--inter--px u-sizeFull u-heightFull u-alignCenter u-flex u-flexDirectionColumn u-flexJustifyContentCenter">
 						<h4 class="Section-items-item-title">ROUPAS PARA FESTA</h4>
 						<p class="Section-items-item-resume u-paddingTop--inter--half u-paddingBottom--inter--half">Conheça mais de <strong>51 marcas</strong> de roupa de festa em atacado que temos cadastrada no <strong>Roupa em Atacado</strong>.</p>
-						<a href="#" class="Button Button--border Button--background  Button--mediumSize hover ButtonLink u-flex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter is-animating Section-items-item-subtitle">VEJA AS MARCAS</a>
+						<a href="#" class="Button Button--border Button--background  Button--smallSize hover ButtonLink u-flex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter is-animating Section-items-item-subtitle">VEJA AS MARCAS</a>
 					</figcaption>
 					</a>
 			</figure>
 			</li>
-			<li class="Section-items-item u-size5of24--px">
+			<li class="Section-items-item">
 				<a href="#">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/bolsas.png">
@@ -55,7 +55,7 @@
 					</figure>
 				</a>
 			</li>
-			<li class="Section-items-item u-size5of24--px">
+			<li class="Section-items-item">
 				<a href="#">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/cosmetic.png">
@@ -65,7 +65,7 @@
 					</figure>
 				</a>
 			</li>
-			<li class="Section-items-item u-size5of24--px">
+			<li class="Section-items-item">
 				<a href="#">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/acessorie.png">
@@ -75,7 +75,7 @@
 					</figure>
 				</a>
 			</li>
-			<li class="Section-items-item u-size5of24--px">
+			<li class="Section-items-item">
 				<a href="#">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/infantil.png">

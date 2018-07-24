@@ -13,7 +13,7 @@
 				        <div class="Form-row u-size15of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight">
 				            <label class="Form-label u-displayInlineBlock" for="firstname">E-MAIL<span class="required">*</span></label>
 				            <!-- <i class="FigureIcon FigureIcon--user"></i> -->
-				            <i class="FigureIcon FigureIcon--evelope--2"></i>
+				            <i class="FigureIcon FigureIcon--msg"></i>
 							<input type="tel" name="whatsapp" placeholder="Digite o seu melhor e-mail" class="u-borderRadius5 Form-input Form-input--text Form-border--0 u-size24of24">
 				        </div>
 				        <div class="Form-row u-size8of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating">

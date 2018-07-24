@@ -8,7 +8,7 @@
 				<a href="#">
 					<div class="Section-items-item--face u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingHorizontal--vrt--inter u-heightFull">
 						<figure class="u-displayFlex u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/flogo.png">
+							<i class="FigureIcon FigureIcon--face"></i>
 							<h3 class="Section-items-item-title u-marginLeft--inter">/roupaematacado</h3>
 						</figure>
 					</div>
@@ -18,7 +18,7 @@
 				<a href="#">
 					<div class="Section-items-item--insta u-paddingHorizontal--vrt--inter u-flexDirectionColumn u-flexJustifyContentCenter u-heightFull">
 						<figure class="u-displayFlex u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/instalogo.png">
+							<i class="FigureIcon FigureIcon--insta"></i>
 							<h3 class="Section-items-item-title u-marginLeft--inter">@roupaematacado</h3>
 						</figure>
 					</div>
@@ -28,7 +28,7 @@
 				<a href="#">
 					<div class="Section-items-item--yt u-paddingHorizontal--vrt--inter u-flexDirectionColumn u-flexJustifyContentCenter u-heightFull">
 						<figure class="u-displayFlex u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/ytlogo.png">
+							<i class="FigureIcon FigureIcon--yt"></i>
 							<h3 class="Section-items-item-title u-marginLeft--inter">/roupaematacado</h3>
 						</figure>
 					</div>

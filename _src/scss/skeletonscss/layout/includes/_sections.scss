@@ -928,6 +928,8 @@
 			background: $color_6;
 			& .Section-items{
 				&-item{
+					min-width: 320px;
+					width: 50%;
 					&-figure{
 						&-figureCaption{
 							background: rgba(7,7,7,0.5);
@@ -943,7 +945,7 @@
 						color: $color_1;
 					}
 					&-subtitle{
-						font-size: 10px;
+						font-size: 13px;
 						letter-spacing: 3px;
 						color: $color_1;
 					}
@@ -952,6 +954,13 @@
 						color: $color_1;
 					}
 				}
+				@media screen and (min-width: $break-sm){
+					&-item{
+						width: 25%;
+						min-width: inherit;
+					}
+				}
+				
 			}
 			& .Button{
 				&--border{
@@ -995,6 +1004,10 @@
 		}
 		&--produtos{
 			& .Section-items{
+				& .owl-item{
+						display: flex;
+						align-items: baseline;
+					}
 				&-item{
 					&-figure{
 
@@ -1046,6 +1059,10 @@
 		&--blog{
 			background: $color_6;
 			& .Section-items{
+				& .owl-item{
+						display: flex;
+						align-items: baseline;
+					}
 				&-item{
 					&-header{
 						background: $color_2;

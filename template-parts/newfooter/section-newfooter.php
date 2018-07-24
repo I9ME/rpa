@@ -11,7 +11,7 @@
 			<li class="Section-items-item u-size4of24 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
-						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<i class="FigureIcon FigureIcon--polos"></i>
 						<a href="#" class="Section-header-title u-size12of24 u-marginLeft--inter"><strong>POLOS</strong> DE MODA</a>
 					</div>
 				</header>
@@ -33,8 +33,8 @@
 			<li class="Section-items-item u-size4of24 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
-						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/segmentos.png">
-						<a href="#" class="Section-header-title u-size12of24 u-marginLeft--inter"><strong>SEGMENTOS</strong> DE MODA</a>
+						<i class="FigureIcon FigureIcon--segmentos"></i>
+						<a href="#" class="Section-header-title u-size14of24 u-marginLeft--inter"><strong>SEGMENTOS</strong> DE MODA</a>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">

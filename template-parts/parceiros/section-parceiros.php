@@ -1,39 +1,39 @@
-<section class="Section Section--style2 Section--parceiros u-paddingVertical u-paddingHorizontal">
-	<div class="Section-content">
-		<ul class="Section-items u-flex u-flexJustifyContentSpaceBetween u-flexAlignItemsCenter u-flexFlowWrap">
-			<li class="Section-items-item u-size3of24">
+<section class="Section Section--style2 Section--parceiros u-paddingVertical u-paddingHorizontal--inter">
+	<div class="Section-content u-positionRelative u-sizeFull">
+		<ul id="parceiros-carousel" class="Section-items u-flex u-flexDirectionRow u-flexJustifyContentCenter u-paddingHorizontal--inter u-sizeFull owl-carousel owl-theme u-paddingVertical">
+			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/images/tritenio.png">
+					<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/tritenio2.png">
 				</figure>
 			</li>
-			<li class="Section-items-item u-size3of24">
+			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/images/carla.png">
+					<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/carla2.png">
 				</figure>
 			</li>
-			<li class="Section-items-item u-size3of24">
+			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/images/donali.png">
+					<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/donali2.png">
 				</figure>
 			</li>
-			<li class="Section-items-item u-size3of24">
+			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/images/santapimenta.png">
+					<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/santapimenta2.png">
 				</figure>
 			</li>
-			<li class="Section-items-item u-size3of24">
+			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/images/myself.png">
+					<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/myself2.png">
 				</figure>
 			</li>
-			<li class="Section-items-item u-size3of24">
+			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/images/mamo.png">
+					<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/mamo2.png">
 				</figure>
 			</li>
-			<li class="Section-items-item u-size3of24">
+			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/images/epzodium.png">
+					<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/epzodium2.png">
 				</figure>
 			</li>
 		</ul>

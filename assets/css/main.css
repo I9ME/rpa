@@ -1088,6 +1088,11 @@ strong {
   background: #f0f0f0;
 }
 
+.Section--segmentos .Section-items-item {
+  min-width: 320px;
+  width: 50%;
+}
+
 .Section--segmentos .Section-items-item-figure-figureCaption {
   background: rgba(7, 7, 7, 0.5);
 }
@@ -1103,7 +1108,7 @@ strong {
 }
 
 .Section--segmentos .Section-items-item-subtitle {
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 3px;
   color: #FFFFFF;
 }
@@ -1111,6 +1116,13 @@ strong {
 .Section--segmentos .Section-items-item-resume {
   font-size: 15px;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .Section--segmentos .Section-items-item {
+    width: 25%;
+    min-width: inherit;
+  }
 }
 
 .Section--segmentos .Button--border.hover:hover {
@@ -1149,6 +1161,11 @@ strong {
 
 .Section--ctaNewsletter .Section-header-title {
   color: #FFFFFF;
+}
+
+.Section--produtos .Section-items .owl-item {
+  display: flex;
+  align-items: baseline;
 }
 
 .Section--produtos .Section-items-item-title {
@@ -1192,6 +1209,11 @@ strong {
 
 .Section--blog {
   background: #f0f0f0;
+}
+
+.Section--blog .Section-items .owl-item {
+  display: flex;
+  align-items: baseline;
 }
 
 .Section--blog .Section-items-item-header {
@@ -6287,270 +6309,109 @@ th.u-isShown {
   list-style-type: circle;
 }
 
-.FigureIcon--bikini--color2--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -120px -47px;
-  width: 35px;
-  height: 47px;
-}
-
-.FigureIcon--bikini--color2 {
-  background-image: url(../images/sprite.png);
-  background-position: -120px 0px;
-  width: 35px;
-  height: 47px;
-}
-
-.FigureIcon--bikini {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -107px;
-  width: 35px;
-  height: 47px;
-}
-
-.FigureIcon--blusaGravata--color2--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -197px -37px;
-  width: 37px;
-  height: 37px;
-}
-
-.FigureIcon--blusaGravata--color2 {
-  background-image: url(../images/sprite.png);
-  background-position: -197px -74px;
-  width: 37px;
-  height: 37px;
-}
-
-.FigureIcon--blusaGravata {
-  background-image: url(../images/sprite.png);
-  background-position: -197px -111px;
-  width: 37px;
-  height: 37px;
-}
-
-.FigureIcon--cabide--color2--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -155px -106px;
-  width: 42px;
-  height: 35px;
-}
-
-.FigureIcon--cabide--color2 {
-  background-image: url(../images/sprite.png);
-  background-position: -155px -71px;
-  width: 42px;
-  height: 35px;
-}
-
-.FigureIcon--cabide {
-  background-image: url(../images/sprite.png);
-  background-position: -155px -36px;
-  width: 42px;
-  height: 35px;
-}
-
-.FigureIcon--calcado--color2--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -155px 0px;
-  width: 42px;
-  height: 36px;
-}
-
-.FigureIcon--calcado--color2 {
-  background-image: url(../images/sprite.png);
-  background-position: -77px -107px;
-  width: 42px;
-  height: 36px;
-}
-
-.FigureIcon--calcado {
-  background-image: url(../images/sprite.png);
-  background-position: -35px -107px;
-  width: 42px;
-  height: 36px;
-}
-
-.FigureIcon--company--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -98px -72px;
-  width: 13px;
-  height: 17px;
-}
-
-.FigureIcon--envelope--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -234px -210px;
-  width: 18px;
-  height: 14px;
-}
-
-.FigureIcon--envelope {
-  background-image: url(../images/sprite.png);
-  background-position: -33px -193px;
-  width: 23px;
-  height: 18px;
-}
-
-.FigureIcon--infantil--color2--2 {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -36px;
-  width: 60px;
-  height: 36px;
-}
-
-.FigureIcon--infantil--color2 {
-  background-image: url(../images/sprite.png);
-  background-position: -60px 0px;
-  width: 60px;
-  height: 36px;
-}
-
-.FigureIcon--infantil {
+.FigureIcon--bh {
   background-image: url(../images/sprite.png);
   background-position: 0px 0px;
-  width: 60px;
-  height: 36px;
+  width: 168px;
+  height: 86px;
 }
 
-.FigureIcon--jeans--color2--2 {
+.FigureIcon--caruaru {
   background-image: url(../images/sprite.png);
-  background-position: -108px -154px;
-  width: 37px;
-  height: 37px;
+  background-position: -168px -172px;
+  width: 168px;
+  height: 86px;
 }
 
-.FigureIcon--jeans--color2 {
+.FigureIcon--face {
   background-image: url(../images/sprite.png);
-  background-position: -145px -154px;
-  width: 37px;
-  height: 37px;
+  background-position: -336px 0px;
+  width: 13px;
+  height: 24px;
 }
 
-.FigureIcon--jeans {
+.FigureIcon--fortaleza {
   background-image: url(../images/sprite.png);
-  background-position: -197px 0px;
-  width: 37px;
-  height: 37px;
+  background-position: -168px 0px;
+  width: 168px;
+  height: 86px;
 }
 
-.FigureIcon--lingerie--color2--2 {
+.FigureIcon--goiania {
   background-image: url(../images/sprite.png);
-  background-position: -234px -40px;
-  width: 19px;
-  height: 40px;
+  background-position: 0px -86px;
+  width: 168px;
+  height: 86px;
 }
 
-.FigureIcon--lingerie--color2 {
+.FigureIcon--insta {
   background-image: url(../images/sprite.png);
-  background-position: -234px 0px;
-  width: 19px;
-  height: 40px;
-}
-
-.FigureIcon--lingerie {
-  background-image: url(../images/sprite.png);
-  background-position: -234px -80px;
-  width: 19px;
-  height: 40px;
+  background-position: 0px -294px;
+  width: 23px;
+  height: 23px;
 }
 
 .FigureIcon--lupa {
   background-image: url(../images/sprite.png);
-  background-position: -234px -120px;
+  background-position: -128px -258px;
   width: 18px;
   height: 18px;
 }
 
-.FigureIcon--oculos--color2--2 {
+.FigureIcon--marcas {
   background-image: url(../images/sprite.png);
-  background-position: -60px -36px;
-  width: 49px;
-  height: 35px;
+  background-position: -23px -294px;
+  width: 22px;
+  height: 22px;
 }
 
-.FigureIcon--oculos--color2 {
+.FigureIcon--maringa {
   background-image: url(../images/sprite.png);
-  background-position: 0px -72px;
-  width: 49px;
-  height: 35px;
+  background-position: 0px -172px;
+  width: 168px;
+  height: 86px;
 }
 
-.FigureIcon--oculos {
+.FigureIcon--masp {
   background-image: url(../images/sprite.png);
-  background-position: -49px -72px;
-  width: 49px;
-  height: 35px;
+  background-position: -168px -86px;
+  width: 168px;
+  height: 86px;
 }
 
-.FigureIcon--plusSize--color2--2 {
+.FigureIcon--msg {
   background-image: url(../images/sprite.png);
-  background-position: -197px -148px;
-  width: 33px;
+  background-position: -105px -258px;
+  width: 23px;
+  height: 18px;
+}
+
+.FigureIcon--polos {
+  background-image: url(../images/sprite.png);
+  background-position: -45px -294px;
+  width: 19px;
+  height: 21px;
+}
+
+.FigureIcon--quote {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -258px;
+  width: 39px;
   height: 36px;
 }
 
-.FigureIcon--plusSize--color2 {
+.FigureIcon--segmentos {
   background-image: url(../images/sprite.png);
-  background-position: -119px -107px;
-  width: 33px;
-  height: 36px;
-}
-
-.FigureIcon--plusSize {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -193px;
-  width: 33px;
-  height: 36px;
-}
-
-.FigureIcon--user--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -234px -191px;
-  width: 15px;
+  background-position: -76px -258px;
+  width: 29px;
   height: 19px;
 }
 
-.FigureIcon--user {
+.FigureIcon--yt {
   background-image: url(../images/sprite.png);
-  background-position: -234px -172px;
-  width: 15px;
-  height: 19px;
-}
-
-.FigureIcon--vestido--color2--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -36px -154px;
-  width: 36px;
-  height: 39px;
-}
-
-.FigureIcon--vestido--color2 {
-  background-image: url(../images/sprite.png);
-  background-position: -72px -154px;
-  width: 36px;
-  height: 39px;
-}
-
-.FigureIcon--vestido {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -154px;
-  width: 36px;
-  height: 39px;
-}
-
-.FigureIcon--whatsapp--2 {
-  background-image: url(../images/sprite.png);
-  background-position: -234px -138px;
-  width: 17px;
-  height: 17px;
-}
-
-.FigureIcon--whatsapp {
-  background-image: url(../images/sprite.png);
-  background-position: -234px -155px;
-  width: 17px;
-  height: 17px;
+  background-position: -39px -258px;
+  width: 37px;
+  height: 26px;
 }
 
 /* 

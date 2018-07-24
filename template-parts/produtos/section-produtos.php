@@ -5,8 +5,8 @@
 		</h3>
 	</header>
 	<a href="#" class="Section-header-subtitle">Veja todos os <strong>produtos</strong></a>
-	<div class="Section-content">
-		<ul class="Section-items u-flex u-flexFlowWrap u-flexAlignItemsCenter u-paddingHorizontal u-flexJustifyContentCenter u-flexJustifyContentSpaceBetween">
+	<div class="Section-content u-positionRelative u-sizeFull">
+		<ul id="produtos-carousel" class="Section-items u-flex u-flexJustifyContentCenter u-flexDirectionRow u-flexAlignBaseLine owl-carousel owl-theme u-paddingTop--inter u-paddingVertical">
 			<li class="Section-items-item u-flex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter">
 				<figure class="Section-items-item-figure">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/images/roupa1.png">
