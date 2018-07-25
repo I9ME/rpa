@@ -1,4 +1,4 @@
-<section class="Section Section--style2 Section--ctaNewsletter u-paddingVertical u-paddingHorizontal u-alignCenter">
+<section class="Section Section--style2 Section--ctaNewsletter u-paddingVertical u-paddingHorizontal u-alignCenter" data-stellar-background-ratio="0.5">
 	<div class="u-maxSize--container u-alignCenterBox"><!-- Max Size Container -->
 		<header class="Section-header u-positionRelative u-size24of24 u-marginBottom--inter">
 			<h2 class="Section-header-title u-displayBlock u-size16of24 u-alignCenterBox">
@@ -13,7 +13,7 @@
 				        <div class="Form-row u-size15of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight">
 				            <label class="Form-label u-displayInlineBlock" for="firstname">E-MAIL<span class="required">*</span></label>
 				            <!-- <i class="FigureIcon FigureIcon--user"></i> -->
-				            <i class="FigureIcon FigureIcon--msg"></i>
+				            <!-- <i class="FigureIcon FigureIcon--msg"></i> -->
 							<input type="tel" name="whatsapp" placeholder="Digite o seu melhor e-mail" class="u-borderRadius5 Form-input Form-input--text Form-border--0 u-size24of24">
 				        </div>
 				        <div class="Form-row u-size8of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating">

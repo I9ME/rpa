@@ -55,17 +55,12 @@
 	?>
 
 
-	<!--<header id="masthead" class="Site-header u-positionAbsolute u-sizeFull u-zIndex10 u-paddingHorizontal--inter is-animating">
+<header id="masthead" class="Site-header u-positionAbsolute u-sizeFull u-zIndex10 u-paddingHorizontal is-animating">
 		
-		<div class="u-maxSize--container u-alignCenterBox u-sizeFull">
-			<div class="Site-header-branding u-sizeFull"> 
-				<?php get_template_part('template-parts/header/header','branding');?>
+		<div class="Site-header-content u-maxSize--container u-alignCenterBox u-sizeFull u-displayFlex u-justifyContentCenter u-flexAlignItemsCenter">
+			<div class="Site-header-content-img u-displayFlex">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/images/logorpa.png">
 			</div>
-			
-			<div class="Site-header-functions"> 
-				<a href="<?php echo $other_page_lik; ?>" class="Button Button--border is-animating u-borderRadius5 Button--smallSize hover"><?php echo $other_page_label; ?></a>
-			</div>
-			
 		</div>
 
 	</header><!-- #masthead -->

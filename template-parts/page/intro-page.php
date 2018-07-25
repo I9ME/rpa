@@ -4,10 +4,10 @@
 	
 ?>
 
-<section id="up" class="Section Section--intro Intro Intro--home Intro--background Section--buscaRoupa Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-paddingHorizontal--inter u-flexJustifyContentCenter">	
+<section id="up" class="Section Section--intro Intro Intro--home Intro--background Section--buscaRoupa Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-paddingHorizontal--inter u-flexJustifyContentCenter" data-stellar-background-ratio="0.3">	
 	
 
-	<div class="u-paddingVertical u-size24of24 Captions u-positionRelative u-displayBlock u-maxSize--container u-alignCenterBox">
+	<div class=" u-paddingHorizontal u-paddingVertical u-size24of24 Captions u-positionRelative u-displayBlock u-maxSize--container u-alignCenterBox">
 
 		<div class="Captions u-paddingHorizontal--inter">
 			<div class="Captions--header">
