@@ -1,4 +1,4 @@
-<section class="Section Section--style1 Section--produtos u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-paddingHorizontal">
+<section id="produtos" class="Section Section--style1 Section--produtos u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-paddingHorizontal">
 	<header class="Section-header">
 		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-alignCenter u-paddingBottom--inter--half u-marginBottom--inter--half">
 			<strong>Produtos</strong> em destaque

@@ -1571,6 +1571,12 @@ strong {
   background: linear-gradient(to bottom right, #561d9a, #bd6f67);
 }
 
+.Site-header {
+  /*-----------
+		CUSTOMIZER
+	-------------*/
+}
+
 .Site-header-functions {
   display: none;
 }
@@ -1594,6 +1600,30 @@ strong {
 
 .Site-header-brandingContainer {
   height: auto;
+}
+
+.Site-header--headerRpa {
+  background: #561d9a;
+  position: relative;
+}
+
+.Site-header--headerRpa-content .Button {
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .Site-header--headerRpa-content .Button {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: normal;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Site-header--headerRpa {
+    background: none;
+    position: absolute !important;
+  }
 }
 
 .Intro--page {
@@ -4011,7 +4041,7 @@ th.u-isShown {
 }
 
 .Navigation--menu--style2 .Navigation-items-item .NavigationLink {
-  color: #561d9a;
+  color: #FFFFFF;
 }
 
 .Navigation--menu--style2 .Navigation-items-item .NavigationLink:hover {
@@ -4037,36 +4067,46 @@ th.u-isShown {
   color: #DDDDDD;
 }
 
+.Navigation--menu .Navigation--subMenu {
+  background: #f0f0f0;
+}
+
+.Navigation--menu .Navigation--subMenu-title {
+  color: #DDDDDD;
+}
+
 @media screen and (min-width: 960px) {
-  .Navigation--menu--style2 {
+  .Navigation {
     background: none;
   }
-  .Navigation--menu--style2 .Navigation-items-item {
+  .Navigation .Navigation-items-item {
     background: none;
     font-weight: bold;
   }
-  .Navigation--menu--style2 .Navigation-items-item .NavigationLink {
-    color: #FFFFFF;
+  .Navigation .Navigation-items-item .NavigationLink {
+    color: #57e6e2;
+    font-size: 15px;
+    letter-spacing: 2px;
   }
-  .Navigation--menu--style2 .Navigation-items-item .NavigationLink--backNav {
+  .Navigation .Navigation-items-item .NavigationLink--backNav {
     font-size: 16px;
     color: #FFFFFF;
     border-color: #FFFFFF;
     padding: 5px 15px 5px 30px;
   }
-  .Navigation--menu--style2 .Navigation-items-item .NavigationLink--backNav i {
+  .Navigation .Navigation-items-item .NavigationLink--backNav i {
     top: inherit;
   }
-  .Navigation--menu--style2 .Navigation-items .Navigation--subMenu {
+  .Navigation .Navigation-items .Navigation--subMenu {
     background: #561d9a;
   }
-  .Navigation--menu--style2 .Navigation-items .Navigation--subMenu:before {
+  .Navigation .Navigation-items .Navigation--subMenu:before {
     border-bottom-color: #561d9a;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .Navigation--menu {
+  .Navigation {
     overflow: visible !important;
   }
 }

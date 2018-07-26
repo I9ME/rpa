@@ -1,4 +1,4 @@
-<section class="Section Section--style2 Section--parceiros u-paddingVertical u-paddingHorizontal--inter">
+<section id="marcas" class="Section Section--style2 Section--parceiros u-paddingVertical u-paddingHorizontal--inter">
 	<div class="Section-content u-positionRelative u-sizeFull">
 		<ul id="parceiros-carousel" class="Section-items u-flex u-flexDirectionRow u-flexJustifyContentCenter u-paddingHorizontal--inter u-sizeFull owl-carousel owl-theme u-paddingVertical">
 			<li class="Section-items-item">

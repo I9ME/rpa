@@ -186,7 +186,7 @@
 					background: none;
 					font-weight: bold;
 					& .NavigationLink{
-						color: $color_2;
+						color: $color_1;
 						&:hover{
 							color: $color_3;
 						}
@@ -208,6 +208,15 @@
 					}
 				}
 			}
+		}
+		
+				& .Navigation--subMenu{
+					background: $color_7;
+					&-title{
+						color: $color_4;
+					}
+				}
+			}
 			@media screen and (min-width: $break-md){
 				background: none;
 				& .Navigation-items{
@@ -215,7 +224,9 @@
 						background: none;
 						font-weight: bold;
 						& .NavigationLink{
-							color: $color_1;
+							color: $color_20;
+							font-size: 15px;
+							letter-spacing: 2px;
 							&--backNav{
 								font-size: 16px;
 								color: $color_1;
@@ -235,11 +246,10 @@
 					}
 				}
 			}
-		}
+		
 		@media screen and (min-width: $break-md){
 			overflow: visible !important;
 		}
-	} // Navigation--menu
 
 	&--footer{
 			& .Section-items{

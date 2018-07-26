@@ -1,4 +1,4 @@
-<section class="Section Section--style1 Section--segmentos u-flex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter u-paddingBottom u-paddingVertical_">
+<section id="segmentos" class="Section Section--style1 Section--segmentos u-flex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter u-paddingBottom u-paddingVertical_">
 	<div class="Section-content">
 		<ul class="Section-items u-flex u-flexFlowWrap u-flexJustifyContentCenter">
 			<li class="Section-items-item">

@@ -55,16 +55,36 @@
 	?>
 
 
-<header id="masthead" class="Site-header u-positionAbsolute u-sizeFull u-zIndex10 u-paddingHorizontal is-animating">
-		
-		<div class="Site-header-content u-maxSize--container u-alignCenterBox u-sizeFull u-displayFlex u-justifyContentCenter u-flexAlignItemsCenter">
-			<div class="Site-header-content-img u-displayFlex">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/images/logorpa.png">
+<div id="page" class="Site">
+	<header id="masthead" class="Site-header Site-header--headerRpa u-positionRelative u-sizeFull u-paddingHorizontal--inter u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter is-animating u-zIndex20">
+		<!-- <div class="u-displayFlex u-paddingHorizontal--inter">
+			<ul class="u-displayFlex">
+				<li>Whatsapp</li>
+				<li>Telefone</li>
+				<li>Sobre nós</li>
+			</ul>
+		</div> -->
+		<div class="u-maxSize--container u-alignCenterBox u-sizeFull">
+			<div class="Site-header-line1 u-marginVertical--inter--half u-displayFlex u-flexAlignItemsCenter_ u-flexFolowSize u-flexJustifyContentCenter">
+				<!-- Logo do site -->
+				<div class="Site-header-branding u-displayFlex u-size4of24"> 
+					<a href="<?php echo ''; ?>" class="u-displayFlex">
+						<img src="<?php echo  get_template_directory_uri(); ?>/assets/images/logorpa.png" alt="rpa">
+					</a>
+					<?php// get_template_part('template-parts/header/header','branding');?>
+				</div>
+				<!-- Navigation -->
+				<div class="u-size16of24 u-displayFlex u-flexJustifyContentCenter">
+				<?php  get_template_part('template-parts/header/header','navigation'); ?>
+				<?php  //get_template_part('template-parts/header/header','search-form'); ?>
+				</div>
+				<div class="Site-header--headerRpa-content u-size4of24">
+					<a class="Button Button--border u-sizeFull is-animating u-borderRadius5 Button--smallSize hover u-displayFlex" href="#">Seja uma <br> <b>marca</b>&nbsp;destaque</a>
+				</div>
 			</div>
 		</div>
 
 	</header><!-- #masthead -->
-
 	
 
 	<div class="Site-container">

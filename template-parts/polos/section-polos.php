@@ -1,4 +1,4 @@
-<section class="Section Section--style1 Section--polos u-flex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter u-paddingHorizontal">
+<section id="polos" class="Section Section--style1 Section--polos u-flex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter u-paddingHorizontal">
 	<header class="Section-header">
 		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-alignCenter u-paddingBottom--inter--half u-marginBottom--inter">
 			Principais <strong>polos de moda</strong>

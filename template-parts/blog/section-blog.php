@@ -1,4 +1,4 @@
-<section class="Section Section--style1 Section--blog u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-paddingHorizontal">
+<section id="blog" class="Section Section--style1 Section--blog u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-paddingHorizontal">
 	<header class="Section-header">
 		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-alignCenter u-paddingBottom--inter--half u-marginBottom--inter--half">
 			<strong>Blog</strong>
