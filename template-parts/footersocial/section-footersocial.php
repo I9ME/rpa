@@ -1,4 +1,4 @@
-<section class="Section Section--style1 Section--footerSocial
+<section class="Section--style1 Section--footerSocial
  u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter u-positionRelative u-marginBottom--inter">
 	
 
@@ -36,6 +36,5 @@
 			</li>
 		</ul>
 	</div>
-
-
+	
 </section>

@@ -57,29 +57,51 @@
 
 <div id="page" class="Site">
 	<header id="masthead" class="Site-header Site-header--headerRpa u-positionRelative u-sizeFull u-paddingHorizontal--inter u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter is-animating u-zIndex20">
-		<!-- <div class="u-displayFlex u-paddingHorizontal--inter">
-			<ul class="u-displayFlex">
-				<li>Whatsapp</li>
-				<li>Telefone</li>
-				<li>Sobre nós</li>
+		<div class="Site-header-content u-displayFlex u-paddingBottom--inter u-sizeFull u-paddingVertical u-onlyDesktop">
+			<ul class="u-displayFlex Site-header-items u-paddingVertical u-sizeFull u-flexJustifyContentFlexEnd">
+				<li class="Site-header-content-items-item u-marginVertical--inter">
+					<a class="Site-header-content-items-item-link is-animating" href="#">Sobre nós</a>
+				</li>
+				<li class="Site-header-content-items-item u-marginVertical--inter">
+					<a class="Site-header-content-items-item-link is-animating" href="#">Atendimento</a>
+				</li>
+				<li class="Site-header-content-items-item u-marginVertical--inter">
+					<a class="Site-header-content-items-item-link is-animating" href="#">Login/Cadastro</a>
+				</li>
+				<li class="Site-header-content-items-item u-displayFlex u-marginVertical--inter">
+					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+						<i class="FigureIcon FigureIcon--wpp"></i>
+					</div>
+					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+						<a class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating" href="#">(11)9999-9999</a>
+					</div>
+				</li>
+				<li class="Site-header-content-items-item u-displayFlex u-marginVertical--inter">
+					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+						<i class="FigureIcon FigureIcon--phone"></i>
+					</div>
+					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+						<a class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating" href="#">(11)4042-0800</a>
+					</div>
+				</li>
 			</ul>
-		</div> -->
+		</div>
 		<div class="u-maxSize--container u-alignCenterBox u-sizeFull">
-			<div class="Site-header-line1 u-marginVertical--inter--half u-displayFlex u-flexAlignItemsCenter_ u-flexFolowSize u-flexJustifyContentCenter">
+			<div class="Site-header-line1 u-marginVertical u-displayFlex u-flexAlignItemsCenter u-flexFolowSize">
 				<!-- Logo do site -->
-				<div class="Site-header-branding u-displayFlex u-size4of24"> 
+				<div class="Site-header-branding u-displayFlex"> 
 					<a href="<?php echo ''; ?>" class="u-displayFlex">
 						<img src="<?php echo  get_template_directory_uri(); ?>/assets/images/logorpa.png" alt="rpa">
 					</a>
 					<?php// get_template_part('template-parts/header/header','branding');?>
 				</div>
 				<!-- Navigation -->
-				<div class="u-size16of24 u-displayFlex u-flexJustifyContentCenter">
+				<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical--inter">
 				<?php  get_template_part('template-parts/header/header','navigation'); ?>
 				<?php  //get_template_part('template-parts/header/header','search-form'); ?>
 				</div>
-				<div class="Site-header--headerRpa-content u-size4of24">
-					<a class="Button Button--border u-sizeFull is-animating u-borderRadius5 Button--smallSize hover u-displayFlex" href="#">Seja uma <br> <b>marca</b>&nbsp;destaque</a>
+				<div class="Site-header-content u-onlyDesktop">
+					<a class="Button Button--border is-animating u-borderRadius5 Button--smallSize hover u-alignCenter u-displayFlex" href="#">Seja uma&nbsp;<b>marca</b>&nbsp;destaque</a>
 				</div>
 			</div>
 		</div>

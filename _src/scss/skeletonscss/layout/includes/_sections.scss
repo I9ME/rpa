@@ -1273,9 +1273,12 @@
 		}
 		&--footerSocial{
 			& .Section{
-				background: rgba(0,0,0,0);
+				background: $color_14;
 				&-content{
 					background: $color_1;
+					&--mobile{
+						background: rgba(0,0,0,0);
+					}
 				}
 				&-items{
 					&-item{

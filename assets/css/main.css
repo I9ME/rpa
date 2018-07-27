@@ -1394,11 +1394,15 @@ strong {
 }
 
 .Section--footerSocial .Section {
-  background: rgba(0, 0, 0, 0);
+  background: #920ac8;
 }
 
 .Section--footerSocial .Section-content {
   background: #FFFFFF;
+}
+
+.Section--footerSocial .Section-content--mobile {
+  background: rgba(0, 0, 0, 0);
 }
 
 .Section--footerSocial .Section-items-item--face {
@@ -1571,12 +1575,6 @@ strong {
   background: linear-gradient(to bottom right, #561d9a, #bd6f67);
 }
 
-.Site-header {
-  /*-----------
-		CUSTOMIZER
-	-------------*/
-}
-
 .Site-header-functions {
   display: none;
 }
@@ -1607,22 +1605,34 @@ strong {
   position: relative;
 }
 
-.Site-header--headerRpa-content .Button {
-  color: red;
-}
-
-@media screen and (min-width: 768px) {
-  .Site-header--headerRpa-content .Button {
-    color: #FFFFFF;
-    font-size: 10px;
-    font-weight: normal;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .Site-header--headerRpa {
     background: none;
     position: absolute !important;
+  }
+}
+
+.Site-header--headerRpa .Site-header-content-items-item-link {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.Site-header--headerRpa .Site-header-content-items-item-link:hover {
+  color: #ffd800;
+}
+
+.Site-header--headerRpa .Site-header-content-items-item-link--phone {
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 768px) {
+  .Site-header--headerRpa .Site-header-content .Button {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  .Site-header--headerRpa .Site-header-content .Button:hover {
+    color: #920ac8;
   }
 }
 
@@ -1634,7 +1644,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-top: 100px;
+  padding-top: 0px;
   height: auto;
   min-height: 100vh;
 }
@@ -1645,7 +1655,13 @@ strong {
 
 @media screen and (min-width: 960px) {
   .Intro--home {
-    background: none;
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Intro--home {
+    padding-bottom: 10%;
   }
 }
 
@@ -6366,7 +6382,7 @@ th.u-isShown {
 
 .FigureIcon--bh {
   background-image: url(../images/sprite.png);
-  background-position: 0px 0px;
+  background-position: -168px 0px;
   width: 168px;
   height: 86px;
 }
@@ -6387,14 +6403,14 @@ th.u-isShown {
 
 .FigureIcon--fortaleza {
   background-image: url(../images/sprite.png);
-  background-position: -168px 0px;
+  background-position: -168px -86px;
   width: 168px;
   height: 86px;
 }
 
 .FigureIcon--goiania {
   background-image: url(../images/sprite.png);
-  background-position: 0px -86px;
+  background-position: 0px -172px;
   width: 168px;
   height: 86px;
 }
@@ -6422,14 +6438,14 @@ th.u-isShown {
 
 .FigureIcon--maringa {
   background-image: url(../images/sprite.png);
-  background-position: 0px -172px;
+  background-position: 0px 0px;
   width: 168px;
   height: 86px;
 }
 
 .FigureIcon--masp {
   background-image: url(../images/sprite.png);
-  background-position: -168px -86px;
+  background-position: 0px -86px;
   width: 168px;
   height: 86px;
 }
@@ -6439,6 +6455,13 @@ th.u-isShown {
   background-position: -105px -258px;
   width: 23px;
   height: 18px;
+}
+
+.FigureIcon--phone {
+  background-image: url(../images/sprite.png);
+  background-position: -161px -258px;
+  width: 15px;
+  height: 15px;
 }
 
 .FigureIcon--polos {
@@ -6460,6 +6483,13 @@ th.u-isShown {
   background-position: -76px -258px;
   width: 29px;
   height: 19px;
+}
+
+.FigureIcon--wpp {
+  background-image: url(../images/sprite.png);
+  background-position: -146px -258px;
+  width: 15px;
+  height: 15px;
 }
 
 .FigureIcon--yt {

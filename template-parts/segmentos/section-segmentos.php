@@ -2,10 +2,10 @@
 	<div class="Section-content">
 		<ul class="Section-items u-flex u-flexFlowWrap u-flexJustifyContentCenter">
 			<li class="Section-items-item">
-				<a href="#">
+				<a class="Section-items-item-figure" href="#">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/modapraia.png">
-						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
+						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px is-animating">
 							<h4 class="Section-items-item-title u-paddingLeft paddingHorizontal--vrt--inter--half--px">MODA PRAIA</h4>
 						</figcaption>
 					</figure>

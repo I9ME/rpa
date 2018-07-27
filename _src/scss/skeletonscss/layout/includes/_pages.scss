@@ -7,7 +7,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
-		padding-top: 100px;
+		padding-top: 0px;
 		height: auto;
 		min-height: 100vh;
 		& video{
@@ -15,10 +15,11 @@
 		}
 		
 		@media screen and (min-width: $break-md){
-
-			//background-image: url('../images/ZoeWeb-banner-intro-lg.png');
-			background: none;
+			padding-top:100px;
 			
+		}
+		@media screen and (max-width: $break-sm){
+			padding-bottom: 10%;
 		}
 	}
 

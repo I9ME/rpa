@@ -60,8 +60,8 @@
 			</li>
 			<li class="Section-items-item level-1 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
-					<div class="Section-header-content Section-header-content u-displayFlex u-flexDirectionRow">
-						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/marcas.png">
+					<div class="Section-header-content Section-header-content u-displayFlex u-flexDirectionRow ">
+						<i class="FigureIcon FigureIcon--marcas"></i>
 						<a href="#" class="Section-header-title u-marginLeft--inter"><strong>MARCAS</strong> DE ATACADO</a>
 					</div>
 				</header>
@@ -77,7 +77,7 @@
 			<li class="Section-items-item level-1 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
-						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<i class="FigureIcon FigureIcon--polos"></i>
 						<a href="#" class="Section-header-title u-marginLeft--inter">CATÁLOGO DE <strong>PRODUTOS</strong></a>
 					</div>
 				</header>
@@ -99,7 +99,7 @@
 			<li class="Section-items-item level-1 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
-						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<i class="FigureIcon FigureIcon--polos"></i>
 						<a href="#" class="Section-header-title u-marginLeft--inter">PREÇOS E <strong>ORÇAMENTOS</strong></a>
 					</div>
 				</header>
@@ -118,7 +118,7 @@
 			<li class="Section-items-item level-1 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
-						<img class="u-objectFitCover u-heightFull" src="<?php echo get_template_directory_uri() ?>/assets/images/polos.png">
+						<i class="FigureIcon FigureIcon--polos"></i>
 						<a href="#" class="Section-header-title u-marginLeft--inter">MAIS <strong>INFORMAÇÕES</strong></a>
 					</div>
 				</header>
