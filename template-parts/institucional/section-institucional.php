@@ -1,4 +1,4 @@
-<section class="Section--institucional u-flexFlowWrap u-displayFlex u-paddingTop">
+<section class="Section--institucional u-flexFlowWrap u-displayFlex">
 	<div class="Section-subSection--sobre u-displayFlex u-flexDirectionColumn u-paddingHorizontal--vrt  u-size12of24">
 		<header class="Section-subSection-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
 			<h3 class="Section-subSection-header-title">Sobre Nós</h3>

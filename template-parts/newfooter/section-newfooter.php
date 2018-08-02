@@ -7,12 +7,12 @@
 		</a>
 	</header>
 	<div class="Section-content u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter u-sizeFull u-paddingHorizontal--vrt">
-		<ul class="Section-items Navigation Navigation--footer u-displayFlex u-flexFlowWrap u-alignItemsCenter u-flexJustifyContentCenter">
+		<ul class="Section-items Navigation Navigation--footer u-displayFlex u-flexFlowWrap u-alignItemsCenter u-flexJustifyContentCenter u-sizeFull">
 			<li class="Section-items-item level-1 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
 						<i class="FigureIcon FigureIcon--polos"></i>
-						<a href="#" class="Section-header-title u-marginLeft--inter"><strong>POLOS</strong> DE MODA</a>
+						<span class="Section-header-title u-marginLeft--inter"><strong>POLOS</strong> DE MODA</span>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -34,7 +34,7 @@
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
 						<i class="FigureIcon FigureIcon--segmentos u-positionRelative"></i>
-						<a href="#" class="Section-header-title u-marginLeft--inter"><strong>SEGMENTOS</strong> DE MODA</a>
+						<span class="Section-header-title u-marginLeft--inter"><strong>SEGMENTOS</strong> DE MODA</span>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -62,7 +62,7 @@
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content Section-header-content u-displayFlex u-flexDirectionRow ">
 						<i class="FigureIcon FigureIcon--marcas"></i>
-						<a href="#" class="Section-header-title u-marginLeft--inter"><strong>MARCAS</strong> DE ATACADO</a>
+						<span class="Section-header-title u-marginLeft--inter"><strong>MARCAS</strong> DE ATACADO</span>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -119,7 +119,7 @@
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
 						<i class="FigureIcon FigureIcon--polos"></i>
-						<a href="#" class="Section-header-title u-marginLeft--inter">MAIS <strong>INFORMAÇÕES</strong></a>
+						<span class="Section-header-title u-marginLeft--inter">MAIS <strong>INFORMAÇÕES</strong></span>
 					</div>
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
@@ -139,7 +139,7 @@
 			<header class="Section-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
 				<div class="Section-header-content u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
 					<i class="FigureIcon FigureIcon--polos"></i>
-					<a href="#" class="Section-header-title u-marginLeft--inter u-paddingHorizontal--inter--half">NOSSO <strong>ATENDIMENTO</strong></a>
+					<span class="Section-header-title u-marginLeft--inter u-paddingHorizontal--inter--half">NOSSO <strong>ATENDIMENTO</strong></span>
 				</div>
 			</header>
 			<div class="u-displayFlex u-flexDirectionRow u-size12of24 u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
@@ -149,9 +149,9 @@
 					<a href="callto:01199999999" class="Section-items-item-resume--color_1">(11)9999-9999</a>
 				</div> -->
 				<div class="u-displayFlex u-paddingVertical u-flexDirectionColumn u-sizeFull u-flexAlignItemsCenter">
-					<h3 class="Section-items-item-title">Fortaleza(CE)</h3>
-					<a href="callto:08540420841" class="Section-items-item-resume--color_1">(85) 4042-0841</a>
-					<a href="callto:085998624149" class="Section-items-item-resume--color_1">(85) 99770-9262</a>
+					<h3 class="Section-items-item-title u-marginBottom--inter--half">Fortaleza(CE)</h3>
+					<a href="callto:08540420841" class="Section-items-item-resume--color_1 u-marginBottom--inter--half">(85) 4042-0841</a>
+					<a href="callto:085998624149" class="Section-items-item-resume--color_1 u-marginBottom--inter--half">(85) 99770-9262</a>
 				</div>
 			</div>
 		</div>

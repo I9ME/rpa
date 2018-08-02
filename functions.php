@@ -408,12 +408,12 @@ class Custom_Post_Type_Image_Upload {
 		"show_ui" => true,
 		"show_in_rest" => false,
 		"rest_base" => "",
-		"has_archive" => false,
+		"has_archive" => true,
 		"show_in_menu" => true,
 		"exclude_from_search" => false,
 		"capability_type" => "post",
 		"map_meta_cap" => true,
-		"hierarchical" => false,
+		"hierarchical" => true,
 		"rewrite" => array( "slug" => "marca-de-roupa", "with_front" => true ),
 		"query_var" => true,
 		"menu_icon" => "dashicons-store",
@@ -1066,4 +1066,15 @@ if( is_page('blog') || is_page('materiais')  || is_page('videos') || is_category
 		return array('verify' => '', 'type' => '', 'content_page' => '' );
 	}
 
+}
+
+
+function title_page(){
+	if( is_post_type_archive('marca-de-roupa') ) {
+
+		$title = 'Marcas de Roupa';
+
+	}
+
+	 return apply_filters( 'title_page', $title );
 }

@@ -12,9 +12,6 @@
 .u-flexAlignItemsCenter{
 	align-items: center;
 }
-.u-flexAlignBaseLine{
-	align-items: baseline;
-}
 .u-inlineFlex{
 	display: inline-flex;
 }
@@ -26,8 +23,19 @@
 	justify-content: flex-end;
 }
 
+.u-flexAlignItemsFlexStart{
+	align-items: flex-start;
+}
+
 .u-flexWrapWrap{
 	flex-wrap: wrap;
+}
+
+.u-FlexFustifyContentSpaceBetween{
+	justify-content: space-between;
+}
+.u-flex1{
+	flex: 1;
 }
 
 .u-flexDirectionRow{
@@ -42,6 +50,7 @@
 .u-flexDirectionColumnReverse{
 	flex-direction: column-reverse;
 }
+
 .u-justifyContentCenter,
 .u-flexJustifyContentCenter{
 	justify-content: center;
@@ -50,54 +59,6 @@
 .u-justifyItemsCenter,
 .u-flexJustifyItemsCenter{
 	justify-items: center;
-}
-.u-flexSwitchReverse--mobile.u-flexDirectionRow{
-	@media screen and (max-width: $break-sm){
-		flex-direction: column !important;
-	}
-}
-.u-flexSwitchReverse--mobile.u-flexDirectionColumn{
-	@media screen and (max-width: $break-sm){
-		flex-direction: row !important;
-	}
-}
-
-.u-flexSwitchReverse--inMobile.u-flexDirectionColumn{
-	@media screen and (max-width: $break-sm){
-		flex-direction: column-reverse !important;
-	}
-}
-
-.u-flexSwitchReverse--mobile.u-flexDirectionRowReverse{
-	flex-direction: row;
-	@media screen and (max-width: $break-sm){
-		flex-direction: column-reverse !important;
-	}
-}
-.u-flexSwitchReverse--mobile.u-flexDirectionRowReverse{
-	flex-direction: row;
-	@media screen and (max-width: $break-sm){
-		flex-direction: column-reverse !important;
-	}
-}
-
-.u-flexSwitchColumn--mobile.u-flexDirectionRowReverse{
-	@media screen and (max-width: $break-sm){
-		flex-direction: column !important;
-	}
-}
-.u-flexSwitchColumnReverse--mobile.u-flexDirectionRowReverse{
-	@media screen and (max-width: $break-sm){
-		flex-direction: column-reverse !important;
-	}
-}
-
-
-.u-flexSwitchReverse--mobile.u-flexDirectionColumnReverse{
-	flex-direction: column;
-	@media screen and (max-width: $break-sm){
-		flex-direction: row-reverse !important;
-	}
 }
 .u-flexSwitchReverse--mobile.u-flexDirectionColumnReverseToRowReverse{
 	flex-direction: column-reverse;
@@ -122,6 +83,17 @@
 		flex-direction: row !important;
 	}
 }
+.u-flexDirectionColumn.u-flexSwitchRow--reverse{
+	@media screen and (min-width: $break-sm){
+		flex-direction: row-reverse !important;
+	}
+}
+
+.u-flexDirectionRow.u-flexSwitchRow{
+	@media screen and (min-width: $break-sm){
+		flex-direction: column !important;
+	}
+}
 // .u-flexSwitchReverse--mobile.u-flexDirectionRowReverse{
 // 	@media screen and (max-width: $break-sm){
 // 		flex-direction: column-reverse !important;
@@ -131,11 +103,3 @@
 .u-flexFlowWrap{
 	flex-flow: wrap;
 }
-
-.u-flexJustifyContentSpaceBetween{
-	justify-content: space-between;
-}
-.u-flexJustifyContentSpaceAround{
-	justify-content: space-around;
-}
-

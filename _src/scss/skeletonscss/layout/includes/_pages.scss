@@ -153,6 +153,20 @@
 			font-size: 20px;
 			font-weight: normal;
 		}
+
+		& .Section{
+			&-header{
+				&-title{
+					&--beforeTitleLine{
+						&:before{
+							height: 2px;
+							background: $color_3;
+						}
+					}
+				}
+			}
+		}
+
 		@media screen and (min-width: $break-sm){
 			min-height: $sizeColumns_px * 10;
 			&-header{

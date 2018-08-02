@@ -1,32 +1,29 @@
 <?php
-/**
- * The main template file
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Skeleton
- * @since 1.0
- * @version 1.0
- */
-
+/*
+Template Name: Archives
+*/
 get_header(); ?>
 
-<div id="main" class="SiteMain u-hasSideBar" role="main">
-	<?php get_template_part('template-parts/page/intro','page');?>
-	
-	<div class="u-maxSize--container u-alignCenterBox u-paddingVertical--hzt u-flex u-flexDirectionRow u-flexSwitchReverse--mobile u-flex ">
-		<main class="SiteMain-main">
-			<?php get_template_part('template-parts/post/post','loop');?>
-		</main>
-		<div class="SiteMain-sideBar">
-			<?php get_template_part('template-parts/sidebar/sidebar','blog');?>
-		</div>
-	</div>
+<div id="container">
+	<div id="content" role="main">
 
-</div><!-- #main -->
+		<?php the_post(); ?>
+		<h1 class="entry-title"><?php the_title(); ?></h1>
+		
+		<?php get_search_form(); ?>
+		
+		<h2>Archives by Month:</h2>
+		<ul>
+			<?php wp_get_archives('type=monthly'); ?>
+		</ul>
+		
+		<h2>Archives by Subject:</h2>
+		<ul>
+			 <?php wp_list_categories(); ?>
+		</ul>
 
+	</div><!-- #content -->
+</div><!-- #container -->
 
-
-
-<?php get_footer();
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

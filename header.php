@@ -99,7 +99,7 @@
 				<?php  get_template_part('template-parts/header/header','navigation'); ?>
 				</div>
 				<div class="Site-header-content u-onlyDesktop">
-					<a class="Button Button--border is-animating u-borderRadius5 Button--smallSize hover u-alignCenter u-displayFlex" href="<?php echo get_home_url( $blog_id = null, $path = '/cadastro/fabricante/', $scheme = null ) ?>">Seja uma&nbsp;<b>marca</b>&nbsp;destaque</a>
+					<a class="Button Button--border is-animating u-borderRadius5 Button--smallSize hover u-alignCenter u-displayFlex" href="<?php echo get_home_url( $blog_id = null, $path = '/cadastro/fabricante/', $scheme = null ) ?>">Seja um <strong class="u-paddingLeft--inter--half"> fornecedor</strong></a>
 				</div>
 			</div>
 		</div>
