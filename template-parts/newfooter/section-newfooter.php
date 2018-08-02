@@ -1,7 +1,7 @@
-<section class="Section--newfooter u-displayFlex u-flexDirectionColumn u-paddingHorizontal">
+<section class="Section--newfooter u-displayFlex u-flexDirectionColumn u-paddingHorizontal u-paddingTop">
 	<header class="Section-content u-paddingTop u-displayFlex u-flexAlignItemsCenter u-flexJustifyContentCenter">
-		<a href="#">
-			<figure class="Section-content-figure">
+		<a class="u-marginTop" href="#">
+			<figure class="Section-content-figure u-padding">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/images/logorpa.png">
 			</figure>
 		</a>
@@ -74,7 +74,7 @@
 					</li>
 				</ul>
 			</li>
-			<li class="Section-items-item level-1 u-marginHorizontal--inter--half">
+			<!-- <li class="Section-items-item level-1 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
 						<i class="FigureIcon FigureIcon--polos"></i>
@@ -114,7 +114,7 @@
 						<a class="Section-items-item-resume" href="#">Meus orçamentos</a>
 					</li>
 				</ul>
-			</li>
+			</li> -->
 			<li class="Section-items-item level-1 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
 					<div class="Section-header-content u-displayFlex u-flexDirectionRow">
@@ -143,15 +143,15 @@
 				</div>
 			</header>
 			<div class="u-displayFlex u-flexDirectionRow u-size12of24 u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
-				<div class="u-displayFlex u-paddingVertical u-flexDirectionColumn u-flexAlignItemsCenter">
+				<!-- <div class="u-displayFlex u-paddingVertical u-flexDirectionColumn u-flexAlignItemsCenter">
 					<h3 class="Section-items-item-title">São Paulo(SP)</h3>
 					<a href="callto:01140420841" class="Section-items-item-resume--color_1">(11)4042-0841</a>
 					<a href="callto:01199999999" class="Section-items-item-resume--color_1">(11)9999-9999</a>
-				</div>
-				<div class="u-displayFlex u-paddingVertical u-flexDirectionColumn u-flexAlignItemsCenter">
+				</div> -->
+				<div class="u-displayFlex u-paddingVertical u-flexDirectionColumn u-sizeFull u-flexAlignItemsCenter">
 					<h3 class="Section-items-item-title">Fortaleza(CE)</h3>
-					<a href="callto:08540420841" class="Section-items-item-resume--color_1">(85)4042-0841</a>
-					<a href="callto:085998624149" class="Section-items-item-resume--color_1">(85)99862-4149</a>
+					<a href="callto:08540420841" class="Section-items-item-resume--color_1">(85) 4042-0841</a>
+					<a href="callto:085998624149" class="Section-items-item-resume--color_1">(85) 99770-9262</a>
 				</div>
 			</div>
 		</div>

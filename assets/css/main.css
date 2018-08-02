@@ -1575,6 +1575,15 @@ strong {
   background: linear-gradient(to bottom right, #561d9a, #bd6f67);
 }
 
+.Site-header-line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Site-header-navigation {
+  flex: 1;
+}
+
 .Site-header-functions {
   display: none;
 }

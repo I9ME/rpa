@@ -20,9 +20,9 @@ get_header(); ?>
 	<?php get_template_part('template-parts/segmentos/section','segmentos'); ?>
 	<?php get_template_part('template-parts/parceiros/section','parceiros'); ?>
 	<?php get_template_part('template-parts/cta/section','cta'); ?>
-	<?php get_template_part('template-parts/produtos/section','produtos'); ?>
+	<?php // get_template_part('template-parts/produtos/section','produtos'); ?>
 	<?php get_template_part('template-parts/blog/section','blog'); ?>
-	<?php get_template_part('template-parts/depoimentos/section','depoimentos'); ?>
+	<?php // get_template_part('template-parts/depoimentos/section','depoimentos'); ?>
 	<?php get_template_part('template-parts/institucional/section','institucional'); ?>
 	
 

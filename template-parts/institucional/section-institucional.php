@@ -7,7 +7,10 @@
 			<figure class="Section-subSection-items-item-figure">
 				<img class="u-objectFitCover u-height5of10 u-sizeFull u-borderRadius10" src="<?php echo get_template_directory_uri() ?>/assets/images/modapraia.png">
 			</figure>
-			<p class="Section-subSection-items-item-resume u-paddingHorizontal--inter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit auctor eros, sit amet gravida purus convallis sit amet. Fusce urna est, tempor quis aliquam sit amet, dapibus id nulla. Quisque nibh nulla, eleifend a.</p>
+			<p class="Section-subSection-items-item-resume u-paddingHorizontal--inter">
+				O Roupa em Atacado é um Marketplace criado para identificar e solucionar os processos e problemas existentes em meio às negociações entre revendedores e fabricantes de confecções em todo o Brasil.
+
+			</p>
 			<a href="#" class="Button Button--border Button--background u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter u-justifyContentCenter u-borderRadius5 Button--smallSize hover is-animating u-hasIcon u-size7of24 u-height1of10">VER MAIS</a>
 		</div>
 	</div>
@@ -16,7 +19,9 @@
 			<h3 class="Section-subSection-header-title">Fale Conosco</h3>
 		</header>
 		<div class="Section-subSection-content">
-			<p class="Section-subSection-items-item-resume u-paddingHorizontal--inter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit auctor eros, sit amet gravida purus convallis sit amet.</p>
+			<p class="Section-subSection-items-item-resume u-paddingHorizontal--inter">
+				Dúvidas ou sugestões? Nos mande uma mensagem e logo entraremos em contato!
+			</p>
 			<form method="POST" action="" class="Form Form--style1">
 				<fieldset class="Form-fieldset">
 				 	<div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-flexSwitchReverse--mobile u-displayFlex u-flexDirectionRow is-animating u-marginRight">

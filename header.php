@@ -73,7 +73,7 @@
 						<i class="FigureIcon FigureIcon--wpp"></i>
 					</div>
 					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
-						<a class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating" href="#">(11)9999-9999</a>
+						<div class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating">(85) 99770-9262</div>
 					</div>
 				</li>
 				<li class="Site-header-content-items-item u-displayFlex u-marginVertical--inter">
@@ -81,7 +81,7 @@
 						<i class="FigureIcon FigureIcon--phone"></i>
 					</div>
 					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
-						<a class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating" href="#">(11)4042-0800</a>
+						<a class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating" href="#">(85) 4042-0800</a>
 					</div>
 				</li>
 			</ul>
@@ -93,15 +93,13 @@
 					<a href="<?php echo ''; ?>" class="u-displayFlex">
 						<img src="<?php echo  get_template_directory_uri(); ?>/assets/images/logorpa.png" alt="rpa">
 					</a>
-					<?php// get_template_part('template-parts/header/header','branding');?>
 				</div>
 				<!-- Navigation -->
-				<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical--inter">
+				<div class="Site-header-navigation u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical--inter">
 				<?php  get_template_part('template-parts/header/header','navigation'); ?>
-				<?php  //get_template_part('template-parts/header/header','search-form'); ?>
 				</div>
 				<div class="Site-header-content u-onlyDesktop">
-					<a class="Button Button--border is-animating u-borderRadius5 Button--smallSize hover u-alignCenter u-displayFlex" href="#">Seja uma&nbsp;<b>marca</b>&nbsp;destaque</a>
+					<a class="Button Button--border is-animating u-borderRadius5 Button--smallSize hover u-alignCenter u-displayFlex" href="<?php echo get_home_url( $blog_id = null, $path = '/cadastro/fabricante/', $scheme = null ) ?>">Seja uma&nbsp;<b>marca</b>&nbsp;destaque</a>
 				</div>
 			</div>
 		</div>

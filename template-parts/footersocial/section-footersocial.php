@@ -1,5 +1,5 @@
 <section class="Section--style1 Section--footerSocial
- u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter u-positionRelative u-marginBottom--inter">
+ u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter u-positionRelative">
 	
 
 	<div class="Section-content u-marginTop--inter u-positionAbsolute u-displayFlex u-paddingHorizontal--inter u-paddingVertical u-size20of24 u-flexAlignItemsCenter u-flexJustifyContentCenter u-onlyDesktop">

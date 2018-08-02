@@ -28,9 +28,9 @@
 			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="#marcas">MARCAS</a>
 		</li>
 
-		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
+		<!-- <li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
 			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="#produtos">PRODUTOS</a>
-		</li>
+		</li> -->
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
 			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="#blog">BLOG</a>
@@ -40,25 +40,20 @@
 
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#videos">VÍDEOS</a>
+			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#videos">POLOS</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#propostas">PROPOSTAS</a>
+			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#propostas">SEGMENTOS</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#na-midia">NA MÍDIA</a>
+			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#na-midia">MARCAS</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
 			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/blog/">BLOG</a>
 		</li>
-
-		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating" href="<?php echo get_home_url(); ?>/#fale-comigo">FALE COMIGO</a>
-		</li>
-
 
 	<?php } ?>
 		

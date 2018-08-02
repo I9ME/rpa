@@ -1,4 +1,13 @@
 .Site-header{
+
+	&-line1{
+			display: flex;
+		    justify-content: space-between;
+	}
+	&-navigation{
+		flex: 1;
+	}
+
 	&-functions{
 		display: none;
 	}

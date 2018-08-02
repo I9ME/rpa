@@ -11,13 +11,13 @@
 
 		<div class="Captions u-paddingHorizontal--inter">
 			<div class="Captions--header">
-				<h1 class="Section-header-title">Encontre os produtos que você procura para revender</h1>
-				<h2 class="Section-header-subtitle">Receba orçamentos de várias marcas de roupa em atacado</h2>
+				<h1 class="Section-header-title">Encontre marcas de moda para revender!</h1>
+				<h2 class="Section-header-subtitle">Conexão fácil e rápida com fabricantes por todo o Brasil</h2>
 			</div>
 				
 		</div>
 
-		<div class="Section-content Section-content--form u-size16of24 u-alignCenterBox">
+		<!-- <div class="Section-content Section-content--form u-size16of24 u-alignCenterBox">
 			<form class="Form Form--style1">
 				<fieldset class="Form-fieldset">
 					<div class="Form-line u-flex u-flexDirectionRow u-flexSwitchReverse--mobile">
@@ -49,7 +49,7 @@
 					<a class="Section-items-item-resume" href="#">Pesquisa por lugares</a>
 				</li>
 			</ul>
-		</div>
+		</div> -->
 	</div>
 </section>
 
