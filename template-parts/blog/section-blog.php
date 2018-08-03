@@ -4,7 +4,7 @@
 			<strong>Blog</strong>
 		</h3>
 	</header>
-	<a href="#" class="Section-header-subtitle">Veja o <strong>blog</strong> completo</a>
+	<a href="http://blog.roupaematacado.com.br/" class="Section-header-subtitle">Veja o <strong>blog</strong> completo</a>
 	<div class="Section-content u-positionRelative u-sizeFull">
 		<ul id="blog-carousel" class="Section-items u-flex u-flexDirectionRow u-flexJustifyContentCenter u-flexFolowSize u-paddingHorizontal--inter u-sizeFull owl-carousel owl-theme u-paddingVertical u-flexAlignBaseLine">
 			<li class="Section-items-item u-sizeFull u-heightFull u-flex u-positionRelative">

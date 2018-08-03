@@ -9,7 +9,7 @@
 				<fieldset class="Form-fieldset">
 					
 
-					<div class="Form-line u-flex u-flexDirectionRow u-flexSwitchReverse--mobile">
+					<div class="Form-line u-flex u-flexDirectionRow u-flexSwitchReverse--mobile u-flexFlowWrap">
 				        <div class="Form-row u-size15of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight">
 				            <label class="Form-label u-displayInlineBlock" for="firstname">E-MAIL<span class="required">*</span></label>
 				            <!-- <i class="FigureIcon FigureIcon--user"></i> -->

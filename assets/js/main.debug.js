@@ -96,8 +96,9 @@ $('#polos-carousel').owlCarousel({
     responsiveClass: true,
     responsive:{
         0:{
-            items:2,
-            margin:50,
+            items:1,
+            margin:25,
+            center:true,
            //nav:false
         },
         768:{

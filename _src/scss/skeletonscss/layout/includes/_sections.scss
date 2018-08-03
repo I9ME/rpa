@@ -1001,6 +1001,11 @@
 					color: $color_1;
 				}
 			}
+			& .Form-row{
+				@media screen and (max-width: $break-sm){
+					margin-right: 0;
+				}
+			}
 		}
 		&--produtos{
 			& .Section-items{

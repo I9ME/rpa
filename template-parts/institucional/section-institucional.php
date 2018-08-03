@@ -24,7 +24,7 @@
 			</p>
 			<form method="POST" action="" class="Form Form--style1">
 				<fieldset class="Form-fieldset">
-				 	<div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-flexSwitchReverse--mobile u-displayFlex u-flexDirectionRow is-animating u-marginRight">
+				 	<div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayFlex u-flexDirectionColumn u-flexSwitchRow is-animating">
 					 	<div class="Form-row u-size12of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight--inter">
 							<input type="text" name="name" placeholder="NOME" class="u-borderRadius5 Form-input Form-input--text Form-border--0 u-size24of24">
 						</div>
@@ -35,7 +35,7 @@
 
 			      	</div>
 
-			        <div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-flexSwitchReverse--mobile u-displayFlex u-flexDirectionRow is-animating u-marginRight">
+			        <div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-flexDirectionColumn u-flexSwitchRow u-displayFlex is-animating u-marginRight">
 			        	<div class="Form-row u-size12of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight--inter">
 							<input type="text" name="mail" placeholder="E-MAIL" class="u-borderRadius5 Form-input Form-input--text Form-border--0 u-size24of24">
 						</div>

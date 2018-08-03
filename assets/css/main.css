@@ -1163,6 +1163,12 @@ strong {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .Section--ctaNewsletter .Form-row {
+    margin-right: 0;
+  }
+}
+
 .Section--produtos .Section-items .owl-item {
   display: flex;
   align-items: baseline;
