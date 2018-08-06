@@ -59,25 +59,25 @@
 	<header id="masthead" class="Site-header Site-header--headerRpa u-positionRelative u-sizeFull u-paddingHorizontal--inter u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter is-animating u-zIndex20">
 		<div class="Site-header-content u-displayFlex u-paddingBottom--inter u-sizeFull u-paddingVertical u-onlyDesktop">
 			<ul class="u-displayFlex Site-header-items u-paddingVertical u-sizeFull u-flexJustifyContentFlexEnd">
-				<li class="Site-header-content-items-item u-marginVertical--inter">
+				<li class="Site-header-content-items-item u-marginVertical--inter--half">
 					<a class="Site-header-content-items-item-link is-animating" href="#">Sobre nós</a>
 				</li>
-				<li class="Site-header-content-items-item u-marginVertical--inter">
+				<li class="Site-header-content-items-item u-marginVertical--inter--half">
 					<a class="Site-header-content-items-item-link is-animating" href="#">Atendimento</a>
 				</li>
-				<li class="Site-header-content-items-item u-marginVertical--inter">
+				<li class="Site-header-content-items-item u-marginVertical--inter--half">
 					<a class="Site-header-content-items-item-link is-animating" href="#">Login/Cadastro</a>
 				</li>
-				<li class="Site-header-content-items-item u-displayFlex u-marginVertical--inter">
-					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+				<li class="Site-header-content-items-item u-displayFlex u-marginVertical--inter--half">
+					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-marginRight">
 						<i class="FigureIcon FigureIcon--wpp"></i>
 					</div>
-					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
-						<div class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating">(85) 99770-9262</div>
+					<div class="Site-header-content-items-item-container u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+						<a class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating">(85) 99770-9262</a>
 					</div>
 				</li>
-				<li class="Site-header-content-items-item u-displayFlex u-marginVertical--inter">
-					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+				<li class="Site-header-content-items-item u-displayFlex u-marginRight--inter--half">
+					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-marginRight">
 						<i class="FigureIcon FigureIcon--phone"></i>
 					</div>
 					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">

@@ -11,7 +11,6 @@
 				O Roupa em Atacado é um Marketplace criado para identificar e solucionar os processos e problemas existentes em meio às negociações entre revendedores e fabricantes de confecções em todo o Brasil.
 
 			</p>
-			<a href="#" class="Button Button--border Button--background u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter u-justifyContentCenter u-borderRadius5 Button--smallSize hover is-animating u-hasIcon u-size7of24 u-height1of10">VER MAIS</a>
 		</div>
 	</div>
 	<div class="Section-subSection--faleConosco u-size12of24 u-paddingHorizontal--vrt">
@@ -44,12 +43,12 @@
 				        </div>
 				    </div>
 		      		<div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-flexSwitchReverse--mobile u-displayFlex u-flexDirectionRow is-animating u-marginRight">
-		      			<div class="Form-row u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight--inter u-height5of10">
+		      			<div class="Form-row u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-height5of10">
 							<textarea name="mensagem" placeholder="MENSAGEM" class="u-borderRadius5 Form-input Form-input--textarea Form-border--0 u-size24of24"></textarea>
 						</div>
 			       	</div>
 				        <div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-flexSwitchReverse--mobile u-displayFlex u-flexDirectionRow is-animating u-marginRight">
-				        	<div class="Form-row u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight--inter">
+				        	<div class="Form-row u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating">
 								<input type="submit" id="_form_13_submit" class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter u-justifyContentCenter u-borderRadius5 Button--mediumSize hover is-animating u-hasIcon u-isScrollDown u-sizeFull" value="ENVIAR" style="height: 75px;">
 				        	</div>
 			        </div>

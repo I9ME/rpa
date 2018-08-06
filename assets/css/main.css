@@ -1218,6 +1218,10 @@ strong {
   align-items: baseline;
 }
 
+.Section--blog .Section-items-item {
+  /*box-shadow: 0px 39px 42px -19px rgba(0,0,0,0.35);*/
+}
+
 .Section--blog .Section-items-item-header {
   background: #561d9a;
 }
@@ -1331,6 +1335,12 @@ strong {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .Section--institucional .Section-subSection--faleConosco .Section-subSection-items-item-resume {
+    text-align: center;
+  }
+}
+
 .Section--institucional .Section-subSection--faleConosco .Button--border.hover:hover {
   background: rgba(0, 0, 0, 0);
   border-color: #FFFFFF;
@@ -1348,6 +1358,12 @@ strong {
   background: #ffd800;
   color: #920ac8;
   font-weight: bold;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--institucional .Section-subSection--faleConosco .Form-row {
+    margin-right: 2.08333%;
+  }
 }
 
 .Section--newfooter {
@@ -1401,6 +1417,7 @@ strong {
 
 .Section--footerSocial .Section-content {
   background: #FFFFFF;
+  box-shadow: 0px 39px 42px -19px rgba(0, 0, 0, 0.35);
 }
 
 .Section--footerSocial .Section-content--mobile {
@@ -1625,7 +1642,8 @@ strong {
 
 .Site-header--headerRpa .Site-header-content-items-item-link {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 13px;
+  width: 120px;
 }
 
 .Site-header--headerRpa .Site-header-content-items-item-link:hover {
