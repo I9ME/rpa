@@ -31,7 +31,7 @@ Escrita de CSS baseada em SUIT CSS - https://github.com/suitcss/suit
 }
 
 .color_7 {
-  background: #f0f0f0;
+  background: #e0e0e0;
 }
 
 .color_8 {
@@ -601,7 +601,7 @@ strong {
   display: inline-block;
   position: relative;
   padding: 5px 5px;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #e0e0e0;
   border-radius: 50px;
 }
 
@@ -624,7 +624,7 @@ strong {
 }
 
 .Section .Section-table-tbody-item.check span {
-  background: #f0f0f0;
+  background: #e0e0e0;
 }
 
 .Section .Section-table-tbody-item.check span i {
@@ -758,8 +758,8 @@ strong {
 }
 
 .Section--style1 .navController--tabs {
-  background-color: #f0f0f0;
-  border-color: #f0f0f0;
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
   color: #561d9a;
 }
 
@@ -1644,6 +1644,7 @@ strong {
   color: #FFFFFF;
   font-size: 13px;
   width: 120px;
+  cursor: pointer;
 }
 
 .Site-header--headerRpa .Site-header-content-items-item-link:hover {
@@ -1954,6 +1955,25 @@ strong {
   .Intro--blog-headerBar .u-flexSwitchReverse--mobile.u-flexDirectionRow {
     flex-direction: column !important;
   }
+}
+
+.Breadcrumbs {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #000000;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Breadcrumbs a {
+  color: #000000;
 }
 
 .Site-footer {
@@ -4062,7 +4082,7 @@ th.u-isShown {
 }
 
 .Navigation--menu--style2 .Navigation-items .Navigation--subMenu {
-  background: #f0f0f0;
+  background: #e0e0e0;
 }
 
 .Navigation--menu--style2 .Navigation-items .Navigation--subMenu-title {
@@ -4070,7 +4090,7 @@ th.u-isShown {
 }
 
 .Navigation--menu .Navigation--subMenu {
-  background: #f0f0f0;
+  background: #e0e0e0;
 }
 
 .Navigation--menu .Navigation--subMenu-title {

@@ -259,3 +259,21 @@
 		}
 	}
 }
+
+.Breadcrumbs{
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: $color_12;
+	& a{
+		color: $color_12;
+	}
+	float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+	border-bottom: 1px solid $color_7;
+}

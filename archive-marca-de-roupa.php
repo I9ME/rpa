@@ -16,15 +16,14 @@ get_header(); ?>
 	<?php get_template_part('template-parts/page/intro','page');?>
 
 	
-	<div class="u-maxSize--container u-alignCenterBox u-paddingVertical--hzt u-displayFlex u-flexDirectionColumn">
-		<main class="SiteMain-main">
-			<?php
+	<div class="u-alignCenterBox u-displayFlex u-flexDirectionColumn">
+		<?php
 				// Função que imprime o BreadCruumbs do YOAST SEO
 				if ( function_exists('yoast_breadcrumb') ) {
-				  yoast_breadcrumb( '</p><p id="breadcrumbs" class="Breadcrumbs">','</p><p>' );
+				  yoast_breadcrumb( '</p><p id="breadcrumbs" class="Breadcrumbs u-paddingHorizontal--inter--half u-paddingVertical u-onlyDesktop">','</p><p>' );
 				}
 			?>
-
+		<main class="SiteMain-main u-maxSize--container u-alignCenterBox">
 			<?php get_template_part('template-parts/marcas/marcas','loop');?>
 		</main>
 	</div>

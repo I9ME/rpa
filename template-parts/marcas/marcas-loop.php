@@ -14,7 +14,7 @@
 			if ( $newsLoop->have_posts() ): 
 
  		?>
-	<ul class="Section-items u-size24of24 u-flex u-flexWrapWrap u-flexJustifyContentCenter">
+	<ul class="Section-items u-size24of24 u-flex u-flexWrapWrap u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
 		<?php                     
 	      while ( $newsLoop->have_posts() ) : $newsLoop->the_post();
 	      	
