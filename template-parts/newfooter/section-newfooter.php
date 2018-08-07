@@ -6,7 +6,7 @@
 			</figure>
 		</a>
 	</header>
-	<div class="Section-content u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter u-sizeFull u-paddingHorizontal--vrt">
+	<div class="Section-content u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter u-sizeFull u-paddingTop--inter u-paddingVertical">
 		<ul class="Section-items Navigation Navigation--footer u-displayFlex u-flexFlowWrap u-alignItemsCenter u-flexJustifyContentCenter u-sizeFull">
 			<li class="Section-items-item level-1 u-marginHorizontal--inter--half">
 				<header class="Section-header u-displayFlex u-flexDirectionColumn">
@@ -142,7 +142,7 @@
 					<span class="Section-header-title u-marginLeft--inter u-paddingHorizontal--inter--half">NOSSO <strong>ATENDIMENTO</strong></span>
 				</div>
 			</header>
-			<div class="u-displayFlex u-flexDirectionRow u-size12of24 u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
+			<div class="u-displayFlex u-flexDirectionRow u-size12of24 u-flexJustifyContentCenter u-paddingTop--inter--half">
 				<!-- <div class="u-displayFlex u-paddingVertical u-flexDirectionColumn u-flexAlignItemsCenter">
 					<h3 class="Section-items-item-title">São Paulo(SP)</h3>
 					<a href="callto:01140420841" class="Section-items-item-resume--color_1">(11)4042-0841</a>
@@ -151,7 +151,7 @@
 				<div class="u-displayFlex u-paddingVertical u-flexDirectionColumn u-sizeFull u-flexAlignItemsCenter">
 					<h3 class="Section-items-item-title u-marginBottom--inter--half">Fortaleza(CE)</h3>
 					<a href="callto:08540420841" class="Section-items-item-resume--color_1 u-marginBottom--inter--half">(85) 4042-0841</a>
-					<a href="callto:085998624149" class="Section-items-item-resume--color_1 u-marginBottom--inter--half">(85) 99770-9262</a>
+					<a href="callto:085998624149" class="Section-items-item-resume--color_1">(85) 99770-9262</a>
 				</div>
 			</div>
 		</div>

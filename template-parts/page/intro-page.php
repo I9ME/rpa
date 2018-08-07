@@ -58,7 +58,12 @@ if( is_home() || is_front_page() ){
 <?php } elseif ( is_page() ) { ?>
 
 <section class="Section Section--intro Intro Intro--home Intro--background Section--buscaRoupa Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter" data-stellar-background-ratio="0.3">
-
+		<div class="Captions u-paddingHorizontal--inter">
+			<div class="Captions--header">
+				<h1 class="Section-header-title"><?php echo title_page(); ?></h1>
+				<h2 class="Section-header-subtitle"><?php echo get_the_excerpt(); ?></h2>
+			</div>
+		</div>
 </section>
 
 <?php } else { ?>

@@ -22,7 +22,7 @@
 			
 				//Imagem Destacada	
 				$image_id = get_post_thumbnail_id();
-				$sizeThumbs = 'medium';
+				$sizeThumbs = 'thumbnail';
 				$urlThumbnail = wp_get_attachment_image_src($image_id, $sizeThumbs);
 				$urlThumbnail = $urlThumbnail[0];
 
