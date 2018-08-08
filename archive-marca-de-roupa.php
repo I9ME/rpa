@@ -17,12 +17,14 @@ get_header(); ?>
 
 	
 	<div class="u-alignCenterBox u-displayFlex u-flexDirectionColumn">
-		<?php
+		<div class="u-maxSize--container u-alignCenterBox u-sizeFull">
+			<?php
 				// Função que imprime o BreadCruumbs do YOAST SEO
 				if ( function_exists('yoast_breadcrumb') ) {
 				  yoast_breadcrumb( '</p><p id="breadcrumbs" class="Breadcrumbs u-paddingHorizontal--inter--half u-paddingVertical u-onlyDesktop">','</p><p>' );
 				}
 			?>
+		</div>
 		<main class="Section Section--marcasDeRoupa SiteMain-main u-maxSize--container u-alignCenterBox">
 			<?php get_template_part('template-parts/marcas/marcas','loop');?>
 		</main>

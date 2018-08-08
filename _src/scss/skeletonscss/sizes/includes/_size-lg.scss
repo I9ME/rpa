@@ -797,7 +797,7 @@ $varSize: 24;
 
 .u-maxSize{
   &--container{
-    max-width: 1200px !important;
+    max-width: $break-ex !important;
   }
   &100{
     max-width: 100%;
