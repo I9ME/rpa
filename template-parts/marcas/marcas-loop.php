@@ -4,8 +4,10 @@
 				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 3, 'orderby' => 'date', 'order' => 'ASC'); 
 			
 			} else {
+				// paginação
+				$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
-				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 12, 'orderby'=> 'date', 'order' => 'ASC');
+				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC');
 			
 			}
 			
@@ -14,7 +16,7 @@
 			if ( $newsLoop->have_posts() ): 
 
  		?>
-	<ul class="Section-items u-size24of24 u-flex u-flexWrapWrap u-paddingHorizontal--inter--half">
+	<ul class="Section-items u-size24of24 u-flex u-flexWrapWrap u-paddingTop">
 		<?php                     
 	      while ( $newsLoop->have_posts() ) : $newsLoop->the_post();
 	      	
@@ -43,9 +45,8 @@
   		?>
 	
 		<li class="Section-items-item u-marginBottom--inter u-flex u-flexDirectionColumn u-alignCenter u-size5of24">
-			<!-- <img class="" src="<?php echo get_template_directory_uri() ?>/assets/images/crusetamini.png"> -->
-			<a href="<?php echo get_permalink(); ?>" class="Section-items-item-content  u-size24of24 u-positionRelative u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
-					<figure class="Section-items-item-figure u-lineHeight0 u-positionRelative u-displayFlex u-flexJustifyContentCenter u-overflowHidden">
+				<a href="<?php echo get_permalink(); ?>" class="Section-items-item-content  u-size24of24 u-positionRelative u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+					<figure class="Section-items-item-figure u-lineHeight0 u-positionRelative u-displayFlex u-flexJustifyContentCenter u-overflowHidden u-boxShadow">
 						<img class="Section-items-item-figure-src u-heightFull u-minWith100 u-objectFitCover is-animating" src="<?php echo $urlThumbnail; ?>" alt="<?php echo get_the_title(); ?>" title="<?php echo get_the_title(); ?>" />
 					</figure>
 					<div class="Section-items-item-texts u-paddingHorizontal--vrt--inter--half--px">
@@ -57,6 +58,14 @@
 		<?php endwhile; ?>
 
 	</ul>
+	<div class="Section-content u-displayFlex u-flexDirectionRow u-flexJustifyContentCenter u-paddingBottom u-sizeFull">
+		<?php 	
+
+		//Imprimindo a paginação
+			pagination_bar( $newsLoop ); 
+
+		 ?>
+	 </div>
 	<?php else: ?>
 		<div class="u-displayBlock u-positionRelative u-alignCenter u-marginHorizontal--vrt"><h3>Não encontramos nenhuma marca.</h3></div>
 	<?php 

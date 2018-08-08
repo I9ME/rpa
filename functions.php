@@ -1078,3 +1078,35 @@ function title_page(){
 
 	 return apply_filters( 'title_page', $title );
 }
+
+//==================================
+//Paginação BLOG
+//==================================
+
+function pagination_bar( $custom_query ) {
+
+    $total_pages = $custom_query->max_num_pages;
+    $big = 999999999; // need an unlikely integer
+
+    if ($total_pages > 1){
+        $current_page = max(4, get_query_var('paged'));
+
+        $pagination =  paginate_links(array(
+            'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+            'format' => '?paged=%#%',
+            'prev_next' => false,
+            'current' => $current_page,
+            'total' => $total_pages,
+            'before_page_number' => '<span class="navController u-lineHeight0 hover is-animating"><span class="ShowText">',
+            'after_page_number' => '</span></span>',
+            'prev_text' => '<span class="ShowText">%1$s</span>',
+            'next_text' => '<span class="ShowText">%1$s</span>',
+        ));
+
+
+
+        echo $pagination;
+
+
+    }
+}
