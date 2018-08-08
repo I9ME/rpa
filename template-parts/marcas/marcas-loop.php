@@ -14,7 +14,7 @@
 			if ( $newsLoop->have_posts() ): 
 
  		?>
-	<ul class="Section-items u-size24of24 u-flex u-flexWrapWrap u-flexJustifyContentCenter u-paddingHorizontal--inter--half">
+	<ul class="Section-items u-size24of24 u-flex u-flexWrapWrap u-paddingHorizontal--inter--half">
 		<?php                     
 	      while ( $newsLoop->have_posts() ) : $newsLoop->the_post();
 	      	
@@ -42,10 +42,11 @@
 	      	$regras_gerais = get_post_meta( get_the_ID(), 'value_line_8', true );*/
   		?>
 	
-		<li class="Section-items-item u-marginBottom--inter u-flex u-flexDirectionColumn u-alignCenter u-size6of24">
+		<li class="Section-items-item u-marginBottom--inter u-flex u-flexDirectionColumn u-alignCenter u-size5of24">
+			<!-- <img class="" src="<?php echo get_template_directory_uri() ?>/assets/images/crusetamini.png"> -->
 			<a href="<?php echo get_permalink(); ?>" class="Section-items-item-content  u-size24of24 u-positionRelative u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
 					<figure class="Section-items-item-figure u-lineHeight0 u-positionRelative u-displayFlex u-flexJustifyContentCenter u-overflowHidden">
-						<img class="Section-items-item-figure-src u-heightAuto u-minWith100 u-objectFitCover is-animating" src="<?php echo $urlThumbnail; ?>" alt="<?php echo get_the_title(); ?>" title="<?php echo get_the_title(); ?>" />
+						<img class="Section-items-item-figure-src u-heightFull u-minWith100 u-objectFitCover is-animating" src="<?php echo $urlThumbnail; ?>" alt="<?php echo get_the_title(); ?>" title="<?php echo get_the_title(); ?>" />
 					</figure>
 					<div class="Section-items-item-texts u-paddingHorizontal--vrt--inter--half--px">
 						<h4 class="Section-items-item-title u-alignCenter u-positionRelative"><?php echo get_the_title(); ?></h4>

@@ -1372,6 +1372,28 @@
 		}
 
 	}
+	//ALTERAÇÕES NAS INTERNAS DO PROJETO RPA (MARCAS DE ROUPA)
+	&--marcasDeRoupa{
+		& .Section{
+			&-items{
+				justify-content: space-between;
+				@media screen and (max-width: $break-sm){
+					justify-content: center;
+				}
+				&-item{
+					&-title{
+						font-size: 15px;
+						letter-spacing: 2px;
+						color: $color_12;
+					}
+					&-figure{
+						border:2px solid $color_12;
+						border-radius: 1%;
+					}
+				}
+			}
+		}
+	}
 	// =================
 	// FOOTER
 	// =================

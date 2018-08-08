@@ -1494,6 +1494,27 @@ strong {
   color: #701cb5;
 }
 
+.Section--marcasDeRoupa .Section-items {
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .Section--marcasDeRoupa .Section-items {
+    justify-content: center;
+  }
+}
+
+.Section--marcasDeRoupa .Section-items-item-title {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.Section--marcasDeRoupa .Section-items-item-figure {
+  border: 2px solid #000000;
+  border-radius: 1%;
+}
+
 .Section--footerBrands {
   background: #DDDDDD;
 }
