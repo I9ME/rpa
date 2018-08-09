@@ -1156,6 +1156,7 @@ strong {
   border-color: #920ac8;
   background: rgba(0, 0, 0, 0);
   color: #920ac8;
+  letter-spacing: 1px;
 }
 
 .Section--segmentos .Button--todos:hover {
