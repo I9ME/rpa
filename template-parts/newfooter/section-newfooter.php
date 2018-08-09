@@ -150,8 +150,8 @@
 				</div> -->
 				<div class="u-displayFlex u-paddingVertical u-flexDirectionColumn u-sizeFull u-flexAlignItemsCenter">
 					<h3 class="Section-items-item-title u-marginBottom--inter--half">Fortaleza(CE)</h3>
-					<a href="callto:08540420841" class="Section-items-item-resume--color_1 u-marginBottom--inter--half">(85) 4042-0841</a>
-					<a href="callto:085998624149" class="Section-items-item-resume--color_1">(85) 99770-9262</a>
+					<h4 class="Section-items-item-resume--color_1 u-marginBottom--inter--half">(85) 4042-0841</a>
+					<h4 class="Section-items-item-resume--color_1">(85) 99770-9262</a>
 				</div>
 			</div>
 		</div>

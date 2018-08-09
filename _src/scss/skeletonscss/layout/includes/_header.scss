@@ -51,14 +51,16 @@
 							color: $color_1;
 							font-size:13px;
 							width: 120px;
-							cursor: pointer;
 							&:hover{
 								color:$color_3;
 							}
-							&--phone{
-								font-weight: bolder;
-							}
 						}	
+						&-contact{
+							color: $color_1;
+							font-size:13px;
+							width: 120px;
+							font-weight: bolder;
+						}
 					}
 				}
 

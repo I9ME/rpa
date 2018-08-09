@@ -1698,14 +1698,16 @@ strong {
   color: #FFFFFF;
   font-size: 13px;
   width: 120px;
-  cursor: pointer;
 }
 
 .Site-header--headerRpa .Site-header-content-items-item-link:hover {
   color: #ffd800;
 }
 
-.Site-header--headerRpa .Site-header-content-items-item-link--phone {
+.Site-header--headerRpa .Site-header-content-items-item-contact {
+  color: #FFFFFF;
+  font-size: 13px;
+  width: 120px;
   font-weight: bolder;
 }
 

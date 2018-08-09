@@ -73,7 +73,7 @@
 						<i class="FigureIcon FigureIcon--wpp"></i>
 					</div>
 					<div class="Site-header-content-items-item-container u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
-						<a class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating">(85) 99770-9262</a>
+						<h4 class="Site-header-content-items-item-contact">(85) 99770-9262</h4>
 					</div>
 				</li>
 				<li class="Site-header-content-items-item u-displayFlex u-marginRight--inter--half">
@@ -81,7 +81,7 @@
 						<i class="FigureIcon FigureIcon--phone"></i>
 					</div>
 					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
-						<a class="Site-header-content-items-item-link Site-header-content-items-item-link--phone is-animating" href="#">(85) 4042-0800</a>
+						<h4 class="Site-header-content-items-item-contact">(85) 4042-0800</h4>
 					</div>
 				</li>
 			</ul>
