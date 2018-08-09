@@ -1151,6 +1151,19 @@ strong {
   font-weight: normal;
 }
 
+.Section--segmentos .Button--todos {
+  border: 2px solid;
+  border-color: #561d9a;
+  background: rgba(0, 0, 0, 0);
+  color: #561d9a;
+}
+
+.Section--segmentos .Button--todos:hover {
+  border-color: #561d9a;
+  background: #561d9a;
+  color: #FFFFFF;
+}
+
 .Section--parceiros {
   background: #FFFFFF;
 }

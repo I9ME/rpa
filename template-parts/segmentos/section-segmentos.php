@@ -88,6 +88,6 @@
 		</ul>
 	</div>
 	<div class="Section-content u-paddingTop--inter u-sizeFull u-displayFlex u-flexJustifyContentCenter">
-		<a href="#" class="Button Button--border Button--background--marcas Button--mediumSize hover ButtonLink u-borderRadius5 u-isScrollDown is-animating u-alignCenter">Veja todos os <strong>segmentos</strong></a>
+		<a href="#" class="Button--todos Button--mediumSize hover ButtonLink u-borderRadius5 u-isScrollDown is-animating u-alignCenter">Veja todos os <strong>segmentos</strong></a>
 	</div>
 </section>

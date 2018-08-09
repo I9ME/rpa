@@ -990,6 +990,18 @@
 				color: $color_1;
 				font-weight: bold;	
 			}
+			& .Button--todos{
+				border: 2px solid;
+				border-color: $color_2;
+				background: rgba(0,0,0,0);
+				color: $color_2;
+				&:hover{
+					border-color:$color_2;
+					background: $color_2;
+					color: $color_1;
+				}
+
+			}
 		}
 		&--parceiros{
 			background: $color_1;
