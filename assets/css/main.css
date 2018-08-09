@@ -1153,14 +1153,14 @@ strong {
 
 .Section--segmentos .Button--todos {
   border: 2px solid;
-  border-color: #561d9a;
+  border-color: #920ac8;
   background: rgba(0, 0, 0, 0);
-  color: #561d9a;
+  color: #920ac8;
 }
 
 .Section--segmentos .Button--todos:hover {
-  border-color: #561d9a;
-  background: #561d9a;
+  border-color: #920ac8;
+  background: #920ac8;
   color: #FFFFFF;
 }
 
@@ -1505,6 +1505,13 @@ strong {
   font-size: 13px;
   font-weight: bold;
   color: #701cb5;
+}
+
+@media screen and (min-width: 1400px) {
+  .Section--marcasDeRoupa {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .Section--marcasDeRoupa .Section-items {

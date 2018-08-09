@@ -992,12 +992,12 @@
 			}
 			& .Button--todos{
 				border: 2px solid;
-				border-color: $color_2;
+				border-color: $color_14;
 				background: rgba(0,0,0,0);
-				color: $color_2;
+				color: $color_14;
 				&:hover{
-					border-color:$color_2;
-					background: $color_2;
+					border-color:$color_14;
+					background: $color_14;
 					color: $color_1;
 				}
 
@@ -1387,6 +1387,10 @@
 	//ALTERAÇÕES NAS INTERNAS DO PROJETO RPA (MARCAS DE ROUPA)
 
 	&--marcasDeRoupa{
+		@media screen and (min-width: $break-ex){
+						margin-left: auto;
+						margin-right: auto;
+					}
 		& .Section{
 			&-items{
 				justify-content: space-between;

@@ -211,12 +211,20 @@ $('#parceiros-carousel').owlCarousel({
     }
 });
 
+// ANCHOR ANIMADO
+$( "a.NavigationLink" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+    });
+
+
 // /*=========================================================================================
 // // CLOSE FUNCTION
 // =========================================================================================*/
 
 	});
 });
+
 
 
 

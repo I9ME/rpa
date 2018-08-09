@@ -25,7 +25,7 @@ get_header(); ?>
 				}
 			?>
 		</div>
-		<main class="Section Section--marcasDeRoupa SiteMain-main u-maxSize--container u-alignCenterBox">
+		<main class="Section Section--marcasDeRoupa SiteMain-main u-maxSize--container">
 			<?php get_template_part('template-parts/marcas/marcas','loop');?>
 		</main>
 	</div>
