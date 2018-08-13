@@ -66,6 +66,19 @@ if( is_home() || is_front_page() ){
 		</div>
 </section>
 
+
+<?php } elseif ( is_single() ) { ?>
+	<section class="Section Section--intro Intro Intro--page Intro--background Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter" data-stellar-background-ratio="0.3">
+
+<header class="Section-header">
+	<h1 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-paddingBottom--inter">
+		<strong><?php echo get_the_title(); ?></strong>
+		</h1>
+</header>
+
+</section>
+
+
 <?php } else { ?>
 
 

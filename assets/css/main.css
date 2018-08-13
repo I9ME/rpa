@@ -1556,6 +1556,15 @@ strong {
   }
 }
 
+.Section--single .Section-content-items-item-title {
+  color: #000000;
+  font-size: 20px;
+}
+
+.Section--single .Section-content-items-item-subtitle {
+  color: #888888;
+}
+
 .Section--footerBrands {
   background: #DDDDDD;
 }
@@ -2284,6 +2293,16 @@ strong {
 
 .u-flexFlowWrap {
   flex-flow: wrap;
+}
+
+.u-justifyContentSpaceBetween,
+.u-flexJustifyContentSpaceBetween {
+  justify-content: space-between;
+}
+
+.u-justifyContentSpaceAround,
+.u-flexJustifyContentSpaceAround {
+  justify-content: space-around;
 }
 
 .u-borderRounded--5 {

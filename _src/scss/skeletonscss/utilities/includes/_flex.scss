@@ -103,3 +103,13 @@
 .u-flexFlowWrap{
 	flex-flow: wrap;
 }
+
+.u-justifyContentSpaceBetween,
+.u-flexJustifyContentSpaceBetween{
+	justify-content: space-between;
+}
+
+.u-justifyContentSpaceAround,
+.u-flexJustifyContentSpaceAround{
+	justify-content: space-around;
+}

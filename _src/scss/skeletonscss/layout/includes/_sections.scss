@@ -1427,6 +1427,24 @@
 			}
 		}
 	}
+	&--single{
+		& .Section{
+			&-content{
+				&-items{
+					&-item{
+						&-title{
+						color: $color_12;
+						font-size: 20px;
+						}
+						&-subtitle{
+							color: $color_15;
+						}
+					}
+					
+				}
+			}
+		}
+	}
 	// =================
 	// FOOTER
 	// =================
