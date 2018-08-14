@@ -57,7 +57,7 @@
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
 	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">E-mail:</h4>
-	  			<p class="Section-content-items-item-resume">informa@informacaoestatica.com.br</p>
+	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
 	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">Facebook:</h4>
@@ -73,9 +73,13 @@
 	  			<h2 class="Section-content-items-item-title">Segmento(s)</h2>
 	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
 	  		</li>
-	  		<li class="Section-content-items-item">
+	  		<li class="Section-content-items-item u-paddingBottom--inter">
 	  			<h2 class="Section-content-items-item-title">Polo(s) de Moda</h2>
 	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
+	  		</li>
+	  		<li class="Section-content-items-item">
+	  			<h2 class="Section-content-items-item-title">Sobre</h2>
+	  			<p class="Section-content-items-item-resume"><?php echo get_the_content() ?></p>
 	  		</li>
 	  	</ul>
   	</div>
