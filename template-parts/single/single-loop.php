@@ -52,20 +52,16 @@
 	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
-	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">Site:</h4>
-	  			<p class="Section-content-items-item-resume"><?php echo $link_site; ?></p>
+	  			<a href="<?php echo $link_site; ?>" class="Section-content-items-item-link">Site</a>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
-	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">E-mail:</h4>
-	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
+	  			<a href class="Section-content-items-item-link">E-mail</p>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
-	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">Facebook:</h4>
-	  			<p class="Section-content-items-item-resume"><?php echo $link_facebook; ?></p>
+	  			<a href="<?php echo $link_facebook; ?>" class="Section-content-items-item-link">Facebook</a>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
-	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">Instagram:</h4>
-	  			<p class="Section-content-items-item-resume"><?php echo $link_instagram; ?></p>
+	  			<a href="<?php echo $link_instagram; ?>" class="Section-content-items-item-link">Instagram</p>
 	  		</li>
 	  	</ul>
 	  	<ul class="Section-content-items u-paddingTop--inter">
