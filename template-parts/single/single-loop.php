@@ -54,16 +54,16 @@
 	  	</ul>
 	  	<ul class="Section-content-items u-displayFlex">
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
-	  			<a href="<?php echo $link_site; ?>" class="Section-content-items-item-link">Site</a>
+	  			<a href="<?php echo $link_site; ?>" class="Section-content-items-item-link" target="_blank">Site</a>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
 	  			<a href class="Section-content-items-item-link">E-mail</a>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
-	  			<a href="<?php echo $link_facebook; ?>" class="Section-content-items-item-link">Facebook</a>
+	  			<a href="<?php echo $link_facebook; ?>" class="Section-content-items-item-link" target="_blank">Facebook</a>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item u-displayFlex">
-	  			<a href="<?php echo $link_instagram; ?>" class="Section-content-items-item-link">Instagram</a>
+	  			<a href="<?php echo $link_instagram; ?>" class="Section-content-items-item-link" target="_blank">Instagram</a>
 	  		</li>
 	  	</ul>
 	  	<ul class="Section-content-items u-paddingTop--inter">
