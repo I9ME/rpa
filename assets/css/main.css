@@ -1602,6 +1602,10 @@ strong {
   }
 }
 
+.Section--single .Section-content-items-item--mobileLeft {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .Section--single .Section-content-items-item--mobileLeft {
     text-align: left;

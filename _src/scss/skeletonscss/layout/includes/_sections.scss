@@ -1463,6 +1463,7 @@
 							font-weight: lighter;
 						}
 						&--mobileLeft{
+							margin-right: 10px;
 							@media screen and(max-width: $break-sm){
 								text-align: left;
 							}

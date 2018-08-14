@@ -38,7 +38,7 @@
   		</figure>
   	</div>
   	<div class="Section-content-items u-displayFlex u-flexDirectionColumn u-size19of24">
-	  	<ul class="Section-content-items">
+	  	<ul class="Section-content-items u-justifyContentCenter">
 	  		<li class="Section-content-items-item u-onlyDesktop">
 	  			<h2 class="Section-content-items-item-title--altaCaixa"><?php echo get_the_title(); ?></h2>
 	  		</li>
@@ -51,17 +51,19 @@
 	  		<li class="Section-content-items-item u-displayFlex">
 	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
 	  		</li>
+	  	</ul>
+	  	<ul class="Section-content-items u-displayFlex">
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
 	  			<a href="<?php echo $link_site; ?>" class="Section-content-items-item-link">Site</a>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
-	  			<a href class="Section-content-items-item-link">E-mail</p>
+	  			<a href class="Section-content-items-item-link">E-mail</a>
 	  		</li>
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
 	  			<a href="<?php echo $link_facebook; ?>" class="Section-content-items-item-link">Facebook</a>
 	  		</li>
-	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
-	  			<a href="<?php echo $link_instagram; ?>" class="Section-content-items-item-link">Instagram</p>
+	  		<li class="Section-content-items-item Section-content-items-item u-displayFlex">
+	  			<a href="<?php echo $link_instagram; ?>" class="Section-content-items-item-link">Instagram</a>
 	  		</li>
 	  	</ul>
 	  	<ul class="Section-content-items u-paddingTop--inter">
