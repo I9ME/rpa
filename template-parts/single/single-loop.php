@@ -1,4 +1,4 @@
-<div class="Section-content u-sizeFull u-displayFlex u-flexJustifyContentSpaceAround">
+<div class="Section-content u-sizeFull u-displayFlex u-justifyContentCenter u-alignItemsCenter u-flexFlowWrap u-maxSize--container">
 	<?php                     
 	      if ( has_post_thumbnail() ) {
 			
@@ -11,43 +11,72 @@
 			} else {
 				$urlThumbnail = '';
 			}
-/*
 			// MetaBoxes
-	      	$recorrencia = get_post_meta( get_the_ID(), 'var_tipo', true );
-	      	$data_inicial = get_post_meta( get_the_ID(), 'value_line_1', true );
-	      	$data_final = get_post_meta( get_the_ID(), 'value_line_2', true );
-	      	$quant_total = get_post_meta( get_the_ID(), 'value_line_3', true );
-	      	$quant_gerado = get_post_meta( get_the_ID(), 'value_line_4', true );
-	      	$valor_normal = get_post_meta( get_the_ID(), 'value_line_5', true );
-	      	$valor_promocional = get_post_meta( get_the_ID(), 'value_line_6', true );
-	      	$descricao = get_post_meta( get_the_ID(), 'value_line_7', true );
-	      	$regras_gerais = get_post_meta( get_the_ID(), 'value_line_8', true );*/
+	      	$tipo = get_post_meta( get_the_ID(), 'var_tipo', true );
+	      	$link_site = get_post_meta( get_the_ID(), 'link_site', true );
+	      	$link_store = get_post_meta( get_the_ID(), 'link_store', true );
+	      	$link_facebook = get_post_meta( get_the_ID(), 'link_facebook', true );
+	      	$link_instagram = get_post_meta( get_the_ID(), 'link_instagram', true );
+	      	$link_other = get_post_meta( get_the_ID(), 'link_other', true );
+	      	$phone = get_post_meta( get_the_ID(), 'phone', true );
+	      	$static = "informação estática";
+
+	      	/*
+	      			update_post_meta( $post_id, 'var_tipo', $_POST['fields_tipe'] );
+			update_post_meta( $post_id, 'link_site', $_POST['field_link_site'] );
+			update_post_meta( $post_id, 'link_store', $_POST['field_link_store'] );
+			update_post_meta( $post_id, 'link_facebook', $_POST['field_link_facebook'] );
+			update_post_meta( $post_id, 'link_instagram', $_POST['field_link_instagram'] );
+			update_post_meta( $post_id, 'link_other', $_POST['field_link_other'] );
+			update_post_meta( $post_id, 'phone', $_POST['field_phone'] );
+			update_post_meta( $post_id, '_image_id', $_POST['upload_image_id'] );
+		      	*/
   		?>
-  	<div class="Section-content-items u-size5of24">
+  	<div class="Section-content-items--figureMobile u-marginRight">
   		<figure class="Section-content-items-item-figure">
   			<img class="Section-items-item-figure-src u-heightFull u-minWith100 u-objectFitCover is-animating" src="<?php echo $urlThumbnail; ?>" alt="<?php echo get_the_title(); ?>"/>
   		</figure>
   	</div>
-	<div class="Section-content u-size15of24">
-		<div class="Section-content-items u-size24of24 u-displayFlex u-paddingBottom--inter">
-			<div class="Section-content-items-item u-size24of24">
-				<h2 class="Section-content-items-item-title u-sizeFull">Polos de Moda</h2>
-				<p class="Section-content-items-item-subtitle u-sizeFull">Conteúdo estático</p>
-			</div>
-			<div class="Section-content-items-item u-size24of24">
-				<h2 class="Section-content-items-item-title u-sizeFull">Gênero(s)</h2>
-				<p class="Section-content-items-item-subtitle u-sizeFull">Conteúdo estático</p>
-			</div>
-		</div>
-		<div class="Section-content-items u-size24of24 u-displayFlex">
-			<div class="Section-content-items-item u-size24of24">
-				<h2 class="Section-content-items-item-title u-sizeFull">Segmento(s)</h2>
-				<p class="Section-content-items-item-subtitle u-sizeFull">Conteúdo estático</p>
-			</div>
-			<div class="Section-content-items-item u-size24of24">
-				<h2 class="Section-content-items-item-title u-sizeFull">Mix de Produtos</h2>
-				<p class="Section-content-items-item-subtitle u-sizeFull">Conteúdo estático</p>
-			</div>
-		</div>
-	</div>
+  	<div class="Section-content-items u-displayFlex u-flexDirectionColumn u-size19of24">
+	  	<ul class="Section-content-items">
+	  		<li class="Section-content-items-item u-onlyDesktop">
+	  			<h2 class="Section-content-items-item-title--altaCaixa"><?php echo get_the_title(); ?></h2>
+	  		</li>
+	  		<li class="Section-content-items-item u-displayFlex">
+	  			<p class="Section-content-items-item-resume"><?php echo $phone; ?></p>
+	  		</li>
+	  		<li class="Section-content-items-item u-displayFlex">
+	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
+	  		</li>
+	  		<li class="Section-content-items-item u-displayFlex">
+	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
+	  		</li>
+	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
+	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">Site:</h4>
+	  			<p class="Section-content-items-item-resume"><?php echo $link_site; ?></p>
+	  		</li>
+	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
+	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">E-mail:</h4>
+	  			<p class="Section-content-items-item-resume">informa@informacaoestatica.com.br</p>
+	  		</li>
+	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
+	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">Facebook:</h4>
+	  			<p class="Section-content-items-item-resume"><?php echo $link_facebook; ?></p>
+	  		</li>
+	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
+	  			<h4 class="Section-content-items-item-subtitle u-marginRight--inter--half">Instagram:</h4>
+	  			<p class="Section-content-items-item-resume"><?php echo $link_instagram; ?></p>
+	  		</li>
+	  	</ul>
+	  	<ul class="Section-content-items u-paddingTop--inter">
+		 	<li class="Section-content-items-item u-paddingBottom--inter">
+	  			<h2 class="Section-content-items-item-title">Segmento(s)</h2>
+	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
+	  		</li>
+	  		<li class="Section-content-items-item">
+	  			<h2 class="Section-content-items-item-title">Polo(s) de Moda</h2>
+	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
+	  		</li>
+	  	</ul>
+  	</div>
 </div>

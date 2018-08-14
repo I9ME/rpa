@@ -22,7 +22,7 @@ get_header(); ?>
 				}
 			?>
 		</div>
-	<div class="u-maxSize--container u-alignCenterBox u-paddingVertical--hzt u-flex u-flexDirectionRow u-flexSwitchReverse--mobile u-flex u-positionRelative">
+	<div class="u-alignCenterBox u-paddingVertical--hzt u-flex u-flexDirectionRow u-flexSwitchReverse--mobile u-flex u-positionRelative">
 
 		<main class="Section Section--single u-sizeFull SiteMain-main">
 			<?php get_template_part('template-parts/single/single','loop');?>

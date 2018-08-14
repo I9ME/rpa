@@ -1430,15 +1430,54 @@
 	&--single{
 		& .Section{
 			&-content{
+				@media screen and(max-width: $break-sm){
+					align-items: center;
+					text-align: center;
+				}
 				&-items{
 					&-item{
+						@media screen and(max-width: $break-sm){
+							flex-direction: column;
+							text-align: left;
+						}
 						&-title{
 						color: $color_12;
 						font-size: 20px;
+						&--altaCaixa{
+							color: $color_12;
+							font-size: 35px;
+							padding-bottom: 18.75px;
+							@media screen and(max-width: $break-sm){
+								text-align: center;
+							}
+						}
 						}
 						&-subtitle{
 							color: $color_15;
 						}
+						&-resume{
+							@media screen and (max-width: $break-sm){
+								overflow: hidden;
+							}
+							color: $color_12;
+							font-weight: lighter;
+						}
+						&--mobileLeft{
+							@media screen and(max-width: $break-sm){
+								text-align: left;
+							}
+						}
+						&--mobileRight{
+							@media screen and(max-width: $break-sm){
+								text-align: right;
+							}
+						}
+					}
+					&--figureMobile{
+						@media screen and (max-width: $break-sm){
+						margin-right: 0;
+						padding-bottom: 18.75px;
+					}
 					}
 					
 				}

@@ -1556,13 +1556,69 @@ strong {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .Section--single .Section-content {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section--single .Section-content-items-item {
+    flex-direction: column;
+    text-align: left;
+  }
+}
+
 .Section--single .Section-content-items-item-title {
   color: #000000;
   font-size: 20px;
 }
 
+.Section--single .Section-content-items-item-title--altaCaixa {
+  color: #000000;
+  font-size: 35px;
+  padding-bottom: 18.75px;
+}
+
+@media screen and (max-width: 768px) {
+  .Section--single .Section-content-items-item-title--altaCaixa {
+    text-align: center;
+  }
+}
+
 .Section--single .Section-content-items-item-subtitle {
   color: #888888;
+}
+
+.Section--single .Section-content-items-item-resume {
+  color: #000000;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 768px) {
+  .Section--single .Section-content-items-item-resume {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section--single .Section-content-items-item--mobileLeft {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section--single .Section-content-items-item--mobileRight {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section--single .Section-content-items--figureMobile {
+    margin-right: 0;
+    padding-bottom: 18.75px;
+  }
 }
 
 .Section--footerBrands {
@@ -2047,6 +2103,13 @@ strong {
 
 .Breadcrumbs a {
   color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .Intro--page {
+    min-height: 169px;
+    padding: 0;
+  }
 }
 
 .Site-footer {

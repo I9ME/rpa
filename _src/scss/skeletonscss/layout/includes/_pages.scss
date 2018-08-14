@@ -277,3 +277,12 @@
     border-bottom: 1px solid #eee;
 	border-bottom: 1px solid $color_7;
 }
+
+.Intro{
+	&--page{
+		@media screen and (max-width: $break-sm){
+			min-height: 169px;
+			padding: 0;
+		}
+	}
+}
