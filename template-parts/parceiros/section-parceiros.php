@@ -17,7 +17,7 @@
 			</li>
 			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<a href="#">
+					<a href="marca-de-roupa/donali">
 						<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/donali2.png">
 					</a>
 				</figure>
@@ -38,7 +38,7 @@
 			</li>
 			<li class="Section-items-item">
 				<figure class="Section-items-item-figure">
-					<a href="#">
+					<a href="marca-de-roupa/mamo-brazil/">
 						<img class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100" src="<?php echo get_template_directory_uri() ?>/assets/images/mamo2.png">
 					</a>
 				</figure>

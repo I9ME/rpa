@@ -60,7 +60,7 @@
 		<div class="Site-header-content u-displayFlex u-paddingBottom--inter u-sizeFull u-paddingVertical u-onlyDesktop">
 			<ul class="u-displayFlex Site-header-items u-paddingVertical u-sizeFull u-flexJustifyContentFlexEnd">
 				<li class="Site-header-content-items-item u-marginVertical--inter--half">
-					<a class="Site-header-content-items-item-link is-animating" href="#">Sobre nós</a>
+					<a class="Site-header-content-items-item-link is-animating NavigationLink" href="#sobre">Sobre nós</a>
 				</li>
 				<li class="Site-header-content-items-item u-marginVertical--inter--half">
 					<a class="Site-header-content-items-item-link is-animating" href="#">Atendimento</a>
