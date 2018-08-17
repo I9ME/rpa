@@ -90,7 +90,7 @@
 			<div class="Site-header-line1 u-marginVertical u-displayFlex u-flexAlignItemsCenter u-flexFolowSize">
 				<!-- Logo do site -->
 				<div class="Site-header-branding u-displayFlex"> 
-					<a href="<?php echo ''; ?>" class="u-displayFlex">
+					<a href="<?php echo get_home_url(); ?>" class="u-displayFlex">
 						<img src="<?php echo  get_template_directory_uri(); ?>/assets/images/logorpa.png" alt="rpa">
 					</a>
 				</div>
