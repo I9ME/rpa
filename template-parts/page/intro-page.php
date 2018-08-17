@@ -100,6 +100,19 @@ if( is_home() || is_front_page() ){
 </section>
 
 
+<?php } elseif( is_archive() ) { ?>
+
+<section class="Section Section--intro Intro Intro--page Intro--background Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter" data-stellar-background-ratio="0.3">
+
+<header class="Section-header">
+	<h1 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-paddingBottom--inter">
+		<strong><?php echo title_page(); ?></strong>
+	</h1>
+</header>
+
+</section>
+
+
 <?php } else { ?>
 
 

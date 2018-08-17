@@ -16,9 +16,9 @@
 				// paginação
 				$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
-				$tax_slug = 'centros-de-moda';
+				$tax_slug = 'segmentos';
 
-				$newsArgs = array( 'post_type' => 'segmentos', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC', 'tax_query' => array(  array( 'taxonomy'  => $tax_slug, 'field' => 'slug','terms' => get_queried_object()->slug,),),);
+				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC', 'tax_query' => array(  array( 'taxonomy'  => $tax_slug, 'field' => 'slug','terms' => get_queried_object()->slug,),),);
 			
 
 			} else {
