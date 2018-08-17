@@ -17,23 +17,23 @@
 		<?php if ( is_home() || is_front_page() ) { ?>
 		
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="#polos">POLOS</a>
+			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#polos">POLOS</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="#segmentos">SEGMENTOS</a>
+			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#segmentos">SEGMENTOS</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="#marcas">MARCAS</a>
+			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#marcas">MARCAS</a>
 		</li>
 
 		<!-- <li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="#produtos">PRODUTOS</a>
+			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#produtos">PRODUTOS</a>
 		</li> -->
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="#blog">BLOG</a>
+			<a class="NavigationLink u-isScrollDown u-positionRelative Item-level1 is-animating " href="#blog">BLOG</a>
 		</li>
 
 	<?php } else { ?>
@@ -48,7 +48,7 @@
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
-			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/#na-midia">MARCAS</a>
+			<a class="NavigationLink u-positionRelative Item-level1 is-animating " href="<?php echo get_home_url(); ?>/marca-de-roupa">MARCAS</a>
 		</li>
 
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">

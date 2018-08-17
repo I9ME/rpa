@@ -85,11 +85,14 @@ if( is_home() || is_front_page() ){
 <header class="Section-header">
 	<h1 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-paddingBottom--inter">
 		<?php 
-	 		$tax = get_taxonomy( get_queried_object()->taxonomy );
+	 		if( $tax = get_taxonomy( get_queried_object()->taxonomy ) ) {
 
 	        /* use the "name" label instead of "singular_name" to showl the plural version */
 	        $title = sprintf( __( '%1$s: <strong>%2$s</strong>' ),  $tax->labels->name, single_term_title( '', false ) );
 			echo $title;
+		} else {
+			echo 'Nada cadastrado';
+		}
 		 ?>
 		</h1>
 </header>
@@ -104,7 +107,7 @@ if( is_home() || is_front_page() ){
 
 <header class="Section-header">
 	<h1 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-paddingBottom--inter">
-		<strong><?php echo title_page(); ?></strong>
+		<strong>NADA ENCONTRADO</strong>
 		</h1>
 </header>
 
