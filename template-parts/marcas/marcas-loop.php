@@ -3,6 +3,24 @@
 				
 				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 3, 'orderby' => 'date', 'order' => 'ASC'); 
 			
+			} elseif( is_tax('centros-de-moda') ) {
+				// paginação
+				$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
+				$tax_slug = 'centros-de-moda';
+
+				$newsArgs = array( 'post_type' => 'marca-de-roupa', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC', 'tax_query' => array(  array( 'taxonomy'  => $tax_slug, 'field' => 'slug','terms' => get_queried_object()->slug,),),);
+
+
+			} elseif( is_tax('segmentos') ) {
+				// paginação
+				$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
+				$tax_slug = 'centros-de-moda';
+
+				$newsArgs = array( 'post_type' => 'segmentos', 'posts_per_page' => 12, 'paged' => $paged, 'orderby'=> 'date', 'order' => 'ASC', 'tax_query' => array(  array( 'taxonomy'  => $tax_slug, 'field' => 'slug','terms' => get_queried_object()->slug,),),);
+			
+
 			} else {
 				// paginação
 				$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;

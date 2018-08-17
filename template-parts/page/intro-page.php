@@ -78,6 +78,24 @@ if( is_home() || is_front_page() ){
 
 </section>
 
+<?php } elseif( is_tax() ) { ?>
+
+<section class="Section Section--intro Intro Intro--page Intro--background Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter" data-stellar-background-ratio="0.3">
+
+<header class="Section-header">
+	<h1 class="Section-header-title Section-header-title--beforeTitleLine u-positionRelative u-paddingBottom--inter">
+		<?php 
+	 		$tax = get_taxonomy( get_queried_object()->taxonomy );
+
+	        /* use the "name" label instead of "singular_name" to showl the plural version */
+	        $title = sprintf( __( '%1$s: <strong>%2$s</strong>' ),  $tax->labels->name, single_term_title( '', false ) );
+			echo $title;
+		 ?>
+		</h1>
+</header>
+
+</section>
+
 
 <?php } else { ?>
 
