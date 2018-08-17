@@ -1193,23 +1193,21 @@
 							}
 					}
 					&--faleConosco{
-						background: $color_14;
+						background: $color_21;
 						& .Section{
 							&-subSection{
 								&-header{
-									padding-bottom: 0;
-									margin-bottom: 0;
 									&:after{
-										background: none;
+										background: $color_12;
 									}
 									&-title{
-										color: $color_1;
+										color: $color_12;
 									}
 								}
 								&-items{
 									&-item{
 										&-resume{
-											color: $color_1;
+											color: $color_15;
 											@media screen and (max-width: $break-sm){
 												text-align: center;
 											}
@@ -1223,21 +1221,21 @@
 									&.hover{
 										&:hover{
 											background: rgba(0,0,0,0);
-											border-color: $color_1;
-											color: $color_1;
+											border-color: $color_15;
+											color: $color_15;
 										}
 									}
 								}
 						}
 						& .Button--border{
-									border-color: $color_3;
-									color: $color_14;
+									border-color: $color_7;
+									color: $color_1;
 									font-weight: bolder;	
 						}
 						& .Button--background{
-									border-color: $color_3;
-									background: $color_3;
-									color: $color_14;
+									border-color: $color_15;
+									background: $color_15;
+									color: $color_1;
 									font-weight: bold;	
 						}
 						& .Form-row{

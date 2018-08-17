@@ -67,10 +67,10 @@
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="marca-de-roupa">Marcas em destaque</a>
+						<a class="Section-items-item-resume" href="">Marcas em destaque</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="marca-de-roupa">Marcas de A-Z</a>
+						<a class="Section-items-item-resume" href="">Marcas de A-Z</a>
 					</li>
 				</ul>
 			</li>

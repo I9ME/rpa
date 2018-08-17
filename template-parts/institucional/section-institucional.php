@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<div class="Section-subSection--faleConosco u-size12of24 u-paddingHorizontal--vrt">
-		<header class="Section-subSection-header">
+		<header class="Section-subSection-header u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter">
 			<h3 class="Section-subSection-header-title">Fale Conosco</h3>
 		</header>
 		<div class="Section-subSection-content">

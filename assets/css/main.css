@@ -1329,24 +1329,19 @@ strong {
 }
 
 .Section--institucional .Section-subSection--faleConosco {
-  background: #920ac8;
-}
-
-.Section--institucional .Section-subSection--faleConosco .Section-subSection-header {
-  padding-bottom: 0;
-  margin-bottom: 0;
+  background: #e0e0e0;
 }
 
 .Section--institucional .Section-subSection--faleConosco .Section-subSection-header:after {
-  background: none;
+  background: #000000;
 }
 
 .Section--institucional .Section-subSection--faleConosco .Section-subSection-header-title {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .Section--institucional .Section-subSection--faleConosco .Section-subSection-items-item-resume {
-  color: #FFFFFF;
+  color: #888888;
 }
 
 @media screen and (max-width: 768px) {
@@ -1357,20 +1352,20 @@ strong {
 
 .Section--institucional .Section-subSection--faleConosco .Button--border.hover:hover {
   background: rgba(0, 0, 0, 0);
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #888888;
+  color: #888888;
 }
 
 .Section--institucional .Section-subSection--faleConosco .Button--border {
-  border-color: #ffd800;
-  color: #920ac8;
+  border-color: #e0e0e0;
+  color: #FFFFFF;
   font-weight: bolder;
 }
 
 .Section--institucional .Section-subSection--faleConosco .Button--background {
-  border-color: #ffd800;
-  background: #ffd800;
-  color: #920ac8;
+  border-color: #888888;
+  background: #888888;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -1443,7 +1438,7 @@ strong {
 }
 
 .Section--footerSocial .Section-items-item--insta {
-  background: #96e4e2;
+  background: #86ccca;
 }
 
 .Section--footerSocial .Section-items-item--yt {
