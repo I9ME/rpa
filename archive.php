@@ -9,7 +9,6 @@ get_header(); ?>
 
 		<?php the_post(); ?>
 		<h1 class="entry-title"><?php the_title(); ?></h1>
-		<h2>Injecting some code.</h2>
 		
 		<?php get_search_form(); ?>
 		

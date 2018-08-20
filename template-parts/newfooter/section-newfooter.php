@@ -127,7 +127,7 @@
 						<a class="Section-items-item-resume" href="http://blog.roupaematacado.com.br/" target="_blank">Blog</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume NavigationLink" href="#sobre">Sobre nós</a>
+						<a class="Section-items-item-resume u-isScrollDown" href="#sobre">Sobre nós</a>
 					</li>
 					<li class="Section-items-item">
 						<a class="Section-items-item-resume" href="#">Atendimento</a>

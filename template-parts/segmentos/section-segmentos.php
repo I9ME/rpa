@@ -88,6 +88,6 @@
 		</ul>
 	</div>
 	<div class="Section-content u-paddingTop--inter u-sizeFull u-displayFlex u-flexJustifyContentCenter">
-		<a href="#" class="Button--todos Button--mediumSize hover ButtonLink u-borderRadius5 is-animating u-alignCenter">Veja todos os <strong>segmentos</strong></a>
+		<a href="<?php echo get_home_url(); ?>/segmentos/" class="Button--todos Button--mediumSize hover ButtonLink u-borderRadius5 is-animating u-alignCenter">Veja todos os <strong>segmentos</strong></a>
 	</div>
 </section>

@@ -26,7 +26,7 @@ get_header(); ?>
 			?>
 		</div>
 		<main class="Section Section--marcasDeRoupa SiteMain-main u-maxSize--container">
-			<?php get_template_part('template-parts/marcas/polos','loop');?>
+			<?php get_template_part('template-parts/segmentos/segmentos','loop');?>
 		</main>
 	</div>
 

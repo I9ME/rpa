@@ -423,7 +423,6 @@ class Custom_Post_Type_Image_Upload {
 
 	register_post_type( "marca-de-roupa", $args_marcas );
 
-
 	}
 
 //==========================================
