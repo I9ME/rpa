@@ -39,19 +39,19 @@
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Moda Feminina</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url(); ?>/segmentos/moda-feminina/">Moda Feminina</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Moda Masculina</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url(); ?>/segmentos/moda-masculina/">Moda Masculina</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Moda Infantil</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url(); ?>/segmentos/moda-infantil/">Moda Infantil</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Jeans Wear</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url(); ?>/segmentos/jeanswear/">Jeans Wear</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Plus Size</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url(); ?>/segmentos/plus-size/">Plus Size</a>
 					</li>
 					<li class="Section-items-item">
 						<a class="Section-items-item-resume" href="#">Outros</a>
@@ -124,7 +124,7 @@
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="http://blog.roupaematacado.com.br/">Blog</a>
+						<a class="Section-items-item-resume" href="http://blog.roupaematacado.com.br/" target="_blank">Blog</a>
 					</li>
 					<li class="Section-items-item">
 						<a class="Section-items-item-resume NavigationLink" href="#sobre">Sobre nós</a>

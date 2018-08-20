@@ -2,7 +2,7 @@
 	<div class="Section-content">
 		<ul class="Section-items u-flex u-flexFlowWrap u-flexJustifyContentCenter">
 			<li class="Section-items-item">
-				<a class="Section-items-item-figure" href="#">
+				<a class="Section-items-item-figure" href="<?php echo get_home_url(); ?>/segmentos/moda-praia/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/modapraia.png">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px is-animating">
@@ -12,7 +12,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="#">
+				<a href="<?php echo get_home_url(); ?>/segmentos/moda-feminina/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/roupafeminina.png">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -22,7 +22,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="#">
+				<a href="<?php echo get_home_url(); ?>/segmentos/moda-masculina/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/roupamasculina.png">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -46,7 +46,7 @@
 			</figure>
 			</li>
 			<li class="Section-items-item">
-				<a href="#">
+				<a href="<?php echo get_home_url(); ?>/segmentos/bolsas-acessorios/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/bolsas.png">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -66,7 +66,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="#">
+				<a href="<?php echo get_home_url(); ?>/segmentos/oculos/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/acessorie.png">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
@@ -76,7 +76,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="#">
+				<a href="<?php echo get_home_url(); ?>/segmentos/moda-infantil/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/infantil.png">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
