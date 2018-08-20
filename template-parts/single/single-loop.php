@@ -48,12 +48,6 @@
 	  		<li class="Section-content-items-item u-displayFlex">
 	  			<p class="Section-content-items-item-resume"><?php echo $phone; ?></p>
 	  		</li>
-	  		<li class="Section-content-items-item u-displayFlex">
-	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
-	  		</li>
-	  		<li class="Section-content-items-item u-displayFlex">
-	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
-	  		</li>
 	  	</ul>
 	  	<ul class="Section-content-items u-displayFlex">
 	  		<li class="Section-content-items-item Section-content-items-item--mobileLeft u-displayFlex">
@@ -72,23 +66,21 @@
 	  	<ul class="Section-content-items u-paddingTop--inter">
 		 	<li class="Section-content-items-item u-paddingBottom--inter">
 	  			<h2 class="Section-content-items-item-title">Segmento(s)</h2>
-	  				<?php
-	  					$segmento = wp_get_post_terms($id, "segmentos", array());
-	  					foreach ($segmento as $seg):
-	  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
-	  					endforeach
-
-						// $_terms = get_terms( array('segmentos') );
-						// foreach ($_terms as $term) :
-							
-				  //       	echo '<h3>'. $term->name .'</h3>';    
-						// endforeach;
-
-					?>
+  				<?php
+  					$segmento = wp_get_post_terms($id, "segmentos", array());
+  					foreach ($segmento as $seg):
+  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
+  					endforeach
+				?>
 	  		</li>
 	  		<li class="Section-content-items-item u-paddingBottom--inter">
 	  			<h2 class="Section-content-items-item-title">Polo(s) de Moda</h2>
-	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
+	  			<?php
+  					$segmento = wp_get_post_terms($id, "centros-de-moda", array());
+  					foreach ($segmento as $seg):
+  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
+  					endforeach
+				?>
 	  		</li>
 	  		<li class="Section-content-items-item">
 	  			<h2 class="Section-content-items-item-title">Sobre</h2>

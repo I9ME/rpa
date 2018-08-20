@@ -17,16 +17,16 @@
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Sul</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url();?>/centros-de-moda/sul/">Sul</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Sudeste</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url();?>/centros-de-moda/sudeste/">Sudeste</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Centro-Oeste</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url();?>/centros-de-moda/centroeste/">Centro-Oeste</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="#">Nordeste</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url();?>/centros-de-moda/nordeste/">Nordeste</a>
 					</li>
 				</ul>
 			</li>
@@ -67,10 +67,10 @@
 				</header>
 				<ul class="Section-items u-paddingTop--inter--half">
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="">Marcas em destaque</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url(); ?>/marca-de-roupa">Marcas em destaque</a>
 					</li>
 					<li class="Section-items-item">
-						<a class="Section-items-item-resume" href="">Marcas de A-Z</a>
+						<a class="Section-items-item-resume" href="<?php echo get_home_url(); ?>/marca-de-roupa">Marcas de A-Z</a>
 					</li>
 				</ul>
 			</li>
