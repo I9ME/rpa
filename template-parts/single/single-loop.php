@@ -12,6 +12,7 @@
 				$urlThumbnail = '';
 			}
 			// MetaBoxes
+			$id = get_the_ID();
 	      	$tipo = get_post_meta( get_the_ID(), 'var_tipo', true );
 	      	$link_site = get_post_meta( get_the_ID(), 'link_site', true );
 	      	$link_store = get_post_meta( get_the_ID(), 'link_store', true );
@@ -19,7 +20,7 @@
 	      	$link_instagram = get_post_meta( get_the_ID(), 'link_instagram', true );
 	      	$link_other = get_post_meta( get_the_ID(), 'link_other', true );
 	      	$phone = get_post_meta( get_the_ID(), 'phone', true );
-	      	$static = "informação estática";
+	      	$static = "informação estátiaaa";
 
 	      	/*
 	      			update_post_meta( $post_id, 'var_tipo', $_POST['fields_tipe'] );
@@ -32,6 +33,8 @@
 			update_post_meta( $post_id, '_image_id', $_POST['upload_image_id'] );
 		      	*/
   		?>
+
+  	
   	<div class="Section-content-items--figureMobile u-marginRight">
   		<figure class="Section-content-items-item-figure">
   			<img class="Section-items-item-figure-src u-heightFull u-minWith100 u-objectFitCover is-animating" src="<?php echo $urlThumbnail; ?>" alt="<?php echo get_the_title(); ?>"/>
@@ -69,7 +72,19 @@
 	  	<ul class="Section-content-items u-paddingTop--inter">
 		 	<li class="Section-content-items-item u-paddingBottom--inter">
 	  			<h2 class="Section-content-items-item-title">Segmento(s)</h2>
-	  			<p class="Section-content-items-item-resume"><?php echo $static; ?></p>
+	  				<?php
+	  					$segmento = wp_get_post_terms($id, "segmentos", array());
+	  					foreach ($segmento as $seg):
+	  						echo '<p class="Section-content-items-item-resume">'. $seg->name .'</p>';
+	  					endforeach
+
+						// $_terms = get_terms( array('segmentos') );
+						// foreach ($_terms as $term) :
+							
+				  //       	echo '<h3>'. $term->name .'</h3>';    
+						// endforeach;
+
+					?>
 	  		</li>
 	  		<li class="Section-content-items-item u-paddingBottom--inter">
 	  			<h2 class="Section-content-items-item-title">Polo(s) de Moda</h2>
