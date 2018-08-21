@@ -281,11 +281,17 @@ th.u-isShown {
         }
       }
     }
+    & .Item{
+        height: $v_spacing * 1.25 !important;
+      }
+    @media screen and (min-width: $break-sm){
+      & .Item{
+         height: auto !important;
+      }
+    }
     &.Form{
     }
-    & .Item{
-      height: 40px !important;
-    }
+    
     &.Navigation{
     
     }
@@ -396,8 +402,15 @@ body.u-isScrollOff{
 }
 .u-isScrollOn{
 
+  .Site{
+    &:after{
+   opacity: 1;
+   transition: all 0.25s;
+  }
+}
+
   & .SiteMain{
-    padding-top: 75px;
+    // padding-top: 74px;
   }
 
   & .NavigationButton{
@@ -418,7 +431,7 @@ body.u-isScrollOff{
       position:fixed !important;
       padding-top:15px !important;
       padding-bottom:15px !important;
-      // background: $color_1;
+      background: $color_1;
       box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);
   }
   & .Branding--img:first-child{
@@ -428,23 +441,15 @@ body.u-isScrollOff{
     display: block;
   }
   & .Navigation{
-    &--header{}
-    &--main{
-        color: $color_4 !important;
-        padding: 5px 0 !important;
-        line-height: 26px;
-        & .NavigationLink{
-          // color: $color_4 !important;
-          padding: 5px 10px !important;
-          line-height: 26px;
-          &:hover{
-            color: $color_2 !important;
-            border-color: $color_9 !important;
-          }
-        }
+   
+    &--menu{
+      &--main{
+        top: 55px !important;
+      }
     }
-    &--blog{}
   }
+
+ 
   
   & .Site-header .ButtonLink--nav.NavigationLink{
       border-color: $color_2;
