@@ -6701,6 +6701,10 @@ input[type="submit"] {
   font-family: "Raleway";
 }
 
+.Form .Form-row br {
+  display: none !important;
+}
+
 .Form .Form-row .FigureIcon {
   position: absolute;
   display: block;
