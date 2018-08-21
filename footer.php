@@ -25,13 +25,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
-<script src="<?php echo get_template_directory_uri() . '/assets/js/owl.carousel.min.js'; ?>"></script>
-
-<script src="<?php echo  get_template_directory_uri() . '/assets/js/main.debug.js'; ?>"></script>
-
-<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/owl.carousel.min.css'; ?>" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/assets/css/owl.theme.default.css'; ?>">
 <script type="text/javascript">
 _linkedin_data_partner_id = "319177";
 </script><script type="text/javascript">

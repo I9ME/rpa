@@ -210,6 +210,55 @@ $('#parceiros-carousel').owlCarousel({
         }
     }
 });
+
+
+
+
+// ==========================
+// Menu Toggle
+// ==========================
+// 
+
+
+     $(".e-Toglle").click(function(event){
+         event.preventDefault();
+         varId = $(this).attr('id');
+         varWidthWindow = $(window).width();
+         
+          if ($(this).hasClass('a-hzt')){
+                varSide = 'a-hztResize';
+             } else {
+                varSide = '';
+             }
+
+            
+         if ($(this).hasClass('u-isExpanded')){
+
+            //$('body').css({'overflow':'scroll'});
+            $(this).removeClass('u-isExpanded');
+            $(this).addClass('u-isCollapsed');
+                 $('#'+varId+'-container').stop().removeClass('u-isExpanded '+varSide);
+                 $('#'+varId+'-container').stop().addClass('u-isCollapsed '+varSide);
+                 //if( varId == 'MainNavigation' || varWidthWindow <= 480 ) { $('body').removeClass('u-isScrollOff'); }
+                 $('#'+varId+'.SwitchIcon.u-isCollapsed .u-icon').show();
+                 $('#'+varId+'.SwitchIcon .iconClose').hide();
+                 $('.NavigationLink.Item-level1.is-hasSubMenu, .Navigation--subMenu').removeClass('u-isExpanded');
+                 $('.NavigationLink.Item-level1.is-hasSubMenu, .Navigation--subMenu').addClass('u-isCollapsed');
+                 
+         }else{
+
+             //$('body').css({'overflow':'hidden'});
+             $('.u-contentHide, .u-contentHide--button, .Navigation .is-hasSubMenu, .Navigation--subMenu').removeClass('u-isExpanded').addClass('u-isCollapsed');
+             $(this).removeClass('u-isCollapsed');
+             $(this).addClass('u-isExpanded');
+                 $('#'+varId+'-container').stop().removeClass('u-isCollapsed '+varSide);
+                 $('#'+varId+'-container').stop().addClass('u-isExpanded '+varSide);
+                 //if( varId == 'MainNavigation' || varWidthWindow <= 480 ) { $('body').addClass('u-isScrollOff'); }
+                 $('#'+varId+'.SwitchIcon.u-isExpanded .u-icon').hide();
+                 $('#'+varId+'.SwitchIcon .iconClose').show();
+             }
+     });
+
 /*
 // ANCHOR ANIMADO
 $( "a.NavigationLink" ).click(function( event ) {

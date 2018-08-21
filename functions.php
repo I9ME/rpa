@@ -60,7 +60,8 @@ function check_content_page (){
 
 
 function skeleton_setup() {
-	load_theme_textdomain( 'roupaematacado' );
+
+	load_theme_textdomain( 'rpa' );
 
 
 
@@ -83,38 +84,6 @@ function skeleton_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 
-	
-/*	// Localizações dos Menus
-	register_nav_menus( array(
-		'top'    => __( 'Top Menu', 'skeleton' ),
-		'social' => __( 'Social Links Menu', 'skeleton' ),
-	) );*/
-
-	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
-/*	add_theme_support( 'html5', array(
-		'comment-form',
-		'comment-list',
-		'gallery',
-		'caption',
-	) );
-*/
-	/*
-	 * Habilitando os Formatos de POst
-	 *
-	 * See: https://codex.wordpress.org/Post_Formats
-	 */
-	/*add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-		'gallery',
-		'audio',
-	) );*/
 
 	// Habilitando o recurso de Logotipo Customizável.
 
@@ -124,13 +93,7 @@ function skeleton_setup() {
 		'flex-width'  => true,
 	) );
 
-/*	// Add theme support for selective refresh for widgets.
-	add_theme_support( 'customize-selective-refresh-widgets' );
-*/
-	/*
-	 * Editor de Estilo
- 	 */
-	//add_editor_style( array( 'assets/css/editor-style.css', skeleton_fonts_url() ) );
+
 
 }
 
@@ -162,24 +125,26 @@ $check_scripts_page =  check_content_page();
 	
 	}
 
+	$skeleton_version = '1.0';
+
 	// Add custom fonts, used in the main stylesheet.
-
-	// Theme stylesheet.
-	wp_enqueue_style('css-main', get_template_directory_uri() . '/assets/css/' . $scripts_page . '.min.css', array(), null);
-
-	wp_enqueue_script( 'js-main', get_theme_file_uri( '/assets/js/main.min.js' ), array( 'jquery' ), '1.0', true );
-
-	//wp_enqueue_script( 'js-jquery', get_theme_file_uri( '/assets/js/jquery-3.2.1.min.js' ), array(), null );
-
-	wp_enqueue_script( 'js-stellar', get_theme_file_uri( '/assets/js/stellar.js' ), array(), null );
-
+	// 
 	
-   
+	wp_enqueue_style('css-main', get_template_directory_uri() . '/assets/css/'  . $scripts_page . '.min.css', array(), $skeleton_version, 'all');
 
-    wp_enqueue_script('main');
+	wp_enqueue_script( 'js-main', get_template_directory_uri() . '/assets/js/main.min.js', array(), $skeleton_version, true );
+
+	}
+
+	add_action( 'wp_enqueue_scripts', 'skeleton_scripts' );
+
+
+// Add scripts to wp_footer()
+function theme_footer_script() {
 
 
 //SVG
+
 
 echo'<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
@@ -239,6 +204,15 @@ echo'<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" ver
 
 ?>
 
+
+<link rel="stylesheet"  type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/owl.carousel.min.css" />
+ 
+
+ <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.2.1.min.js"></script>
+ <script src="<?php echo get_template_directory_uri(); ?>/assets/js/stellar.js"></script>
+ <script src="<?php echo get_template_directory_uri(); ?>/assets/js/owl.carousel.min.js"></script>
+
+
 <script type="text/javascript">
 	var trackcmp_email = '';
 	var trackcmp = document.createElement("script");
@@ -277,10 +251,10 @@ echo'<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" ver
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
-<?php
 
+<?php
 }
-add_action( 'wp_enqueue_scripts', 'skeleton_scripts' );
+add_action( 'wp_footer', 'theme_footer_script' );
 
 
 
