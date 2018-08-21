@@ -6,23 +6,7 @@
 		</header>	
 		<div class="Section-content Section-content--form u-size16of24 u-alignCenterBox">
 			<form class="Form Form--style1" method="POST" action="">
-				<fieldset class="Form-fieldset">
-					
-
-					<div class="Form-line u-flex u-flexDirectionRow u-flexSwitchReverse--mobile u-flexFlowWrap">
-				        <div class="Form-row u-size15of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight">
-				            <label class="Form-label u-displayInlineBlock" for="firstname">E-MAIL<span class="required">*</span></label>
-				            <!-- <i class="FigureIcon FigureIcon--user"></i> -->
-				            <!-- <i class="FigureIcon FigureIcon--msg"></i> -->
-							<input type="tel" name="whatsapp" placeholder="Digite o seu melhor e-mail" class="u-borderRadius5 Form-input Form-input--text Form-border--0 u-size24of24">
-				        </div>
-				        <div class="Form-row u-size8of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating">
-				           <input type="submit" id="_form_13_submit" class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter u-justifyContentCenter u-borderRadius5 Button--mediumSize hover is-animating u-hasIcon u-isScrollDown u-sizeFull" value="CADASTRAR" style="height: 75px;">
-				        </div>
-				    </div>
-
-
-				</fieldset>
+				<?php echo do_shortcode('[contact-form-7 id="656" title="cta"]'); ?>
 			</form>
 		</div>
 	</div>
