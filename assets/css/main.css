@@ -1620,6 +1620,16 @@ strong {
   }
 }
 
+.Section--internaSegmentos .Section-content-items-item-resume {
+  color: #000000;
+  font-size: 25px;
+}
+
+.Section--internaSegmentos .Section-content-items-item-resume:hover {
+  color: #920ac8;
+  transition: 0.5s;
+}
+
 .Section--footerBrands {
   background: #DDDDDD;
 }

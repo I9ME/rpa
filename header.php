@@ -59,15 +59,17 @@
 	<header id="masthead" class="Site-header Site-header--headerRpa u-positionRelative u-sizeFull u-paddingHorizontal--inter u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter is-animating u-zIndex20">
 		<div class="Site-header-content u-displayFlex u-paddingBottom--inter u-sizeFull u-paddingVertical u-onlyDesktop">
 			<ul class="u-displayFlex Site-header-items u-paddingVertical u-sizeFull u-flexJustifyContentFlexEnd">
-				<li class="Site-header-content-items-item u-marginVertical--inter--half">
-					<a class="Site-header-content-items-item-link is-animating u-isScrollDown" href="#sobre">Sobre nós</a>
-				</li>
-				<li class="Site-header-content-items-item u-marginVertical--inter--half">
+				<?php if(is_home()):?>
+					<li class="Site-header-content-items-item u-marginVertical--inter--half">
+						<a class="Site-header-content-items-item-link is-animating u-isScrollDown" href="#sobre">Sobre nós</a>
+					</li>
+				<?php endif?>
+				<!-- <li class="Site-header-content-items-item u-marginVertical--inter--half">
 					<a class="Site-header-content-items-item-link is-animating" href="#">Atendimento</a>
 				</li>
 				<li class="Site-header-content-items-item u-marginVertical--inter--half">
 					<a class="Site-header-content-items-item-link is-animating" href="#">Login/Cadastro</a>
-				</li>
+				</li> -->
 				<li class="Site-header-content-items-item u-displayFlex u-marginVertical--inter--half">
 					<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-marginRight">
 						<i class="FigureIcon FigureIcon--wpp"></i>

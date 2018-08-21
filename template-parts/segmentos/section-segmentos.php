@@ -34,16 +34,14 @@
 
 			<!-- MINI CTA -->
 			<li class="Section-items-item">
-				<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
-					<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/roupafesta.png">
-					<a href="#">
-					<figcaption class="Section-items-item-figure-figureCaptionCta u-positionAbsolute u-paddingHorizontal--vrt--inter--px u-sizeFull u-heightFull u-alignCenter u-flex u-flexDirectionColumn u-flexJustifyContentCenter">
-						<h4 class="Section-items-item-title">ROUPAS PARA FESTA</h4>
-						<p class="Section-items-item-resume u-paddingTop--inter--half u-paddingBottom--inter--half">Conheça mais de <strong>51 marcas</strong> de roupa de festa em atacado que temos cadastrada no <strong>Roupa em Atacado</strong>.</p>
-						<a href="#" class="Button Button--border Button--background  Button--smallSize hover ButtonLink u-flex u-flexDirectionColumn u-flexJustifyContentCenter u-flexAlignItemsCenter is-animating Section-items-item-subtitle">VEJA AS MARCAS</a>
-					</figcaption>
-					</a>
-			</figure>
+				<a href="<?php echo get_home_url(); ?>/segmentos/roupas-para-festa/">
+					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
+						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/roupafesta.png">
+						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">
+							<h4 class="Section-items-item-title u-paddingLeft paddingHorizontal--vrt--inter--half--px">ROUPA PARA FESTAS</h4>
+						</figcaption>
+					</figure>
+				</a>
 			</li>
 			<li class="Section-items-item">
 				<a href="<?php echo get_home_url(); ?>/segmentos/bolsas-acessorios/">
@@ -56,7 +54,7 @@
 				</a>
 			</li>
 			<li class="Section-items-item">
-				<a href="#">
+				<a href="<?php echo get_home_url(); ?>/segmentos/cosmeticos/">
 					<figure class="Section-items-item-figure u-flex u-flexDirectionColumnReverse u-sizeFull u-positionRelative u-height5of10">
 						<img class="u-objectFitCover u-heightFull u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/cosmetic.png">
 						<figcaption class="Section-items-item-figure-figureCaption u-positionAbsolute u-sizeFull u-paddingHorizontal--vrt--inter--half--px">

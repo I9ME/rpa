@@ -5,7 +5,7 @@
 				<strong>Você</strong> quer receber nossas <strong>novidades</strong> em seu <strong>e-mail?</strong> Cadastre-se em nossa <strong>newsletter</strong>.</h2>
 		</header>	
 		<div class="Section-content Section-content--form u-size16of24 u-alignCenterBox">
-			<form class="Form Form--style1">
+			<form class="Form Form--style1" method="POST" action="">
 				<fieldset class="Form-fieldset">
 					
 

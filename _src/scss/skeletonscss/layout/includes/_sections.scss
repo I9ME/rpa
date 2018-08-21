@@ -1483,6 +1483,24 @@
 			}
 		}
 	}
+	&--internaSegmentos{
+		& .Section{
+			&-content{
+				&-items{
+					&-item{
+						&-resume{
+							color:$color_12;
+							font-size: 25px;
+							&:hover{
+								color:$color_14;
+								transition: 0.5s;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	// =================
 	// FOOTER
 	// =================

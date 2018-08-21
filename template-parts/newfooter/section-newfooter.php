@@ -126,12 +126,14 @@
 					<li class="Section-items-item">
 						<a class="Section-items-item-resume" href="http://blog.roupaematacado.com.br/" target="_blank">Blog</a>
 					</li>
-					<li class="Section-items-item">
-						<a class="Section-items-item-resume u-isScrollDown" href="#sobre">Sobre nós</a>
-					</li>
-					<li class="Section-items-item">
+					<?php if(is_home()):?>
+						<li class="Section-items-item">
+							<a class="Section-items-item-resume u-isScrollDown" href="#sobre">Sobre nós</a>
+						</li>
+					<?php endif?>
+					<!-- <li class="Section-items-item">
 						<a class="Section-items-item-resume" href="#">Atendimento</a>
-					</li>
+					</li> -->
 				</ul>
 			</li>
 		</ul>

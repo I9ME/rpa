@@ -13,7 +13,7 @@
 				    </a>
 			</li>
 			<li class="Section-items-item SaoPaulo u-marginVertical--inter u-sizeFull">
-				<a href="<?php echo get_home_url(); ?>/centros-de-moda/fortaleza/belo-horizonte" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
+				<a href="<?php echo get_home_url(); ?>/centros-de-moda/belo-horizonte" class="Section-items-item-content u-displayFlex u-flexJustifyContentCenter u-flexDirectionColumn u-flexAlignItemsCenter">
 					<i class="FigureIcon FigureIcon--bh"></i>
 					<h3 class="Section-items-item-title u-paddingTop--inter--half">Belo Horizonte - MG</h3>
 			    </a>
