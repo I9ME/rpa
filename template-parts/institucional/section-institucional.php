@@ -21,10 +21,11 @@
 			<p class="Section-subSection-items-item-resume u-paddingHorizontal--inter">
 				Dúvidas ou sugestões? Nos mande uma mensagem e logo entraremos em contato!
 			</p>
-			<form method="POST" action="" class="Form Form--style1">
+			<!-- <form method="POST" action="" class="Form Form--style1">
 				<fieldset class="Form-fieldset">
 				 	<div class="Form-line u-size24of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayFlex u-flexDirectionColumn u-flexSwitchRow is-animating">
 					 	<div class="Form-row u-size12of24 u-marginBottom--inter--half u-overflowHidden u-positionRelative u-displayBlock is-animating u-marginRight--inter">
+					 		<label class="Form-label u-displayInlineBlock" for="name">Seu Nome<span class="required u-paddingLeft--inter--half--px" aria-required="true">*</span></label>
 							<input type="text" name="name" placeholder="NOME" class="u-borderRadius5 Form-input Form-input--text Form-border--0 u-size24of24">
 						</div>
 
@@ -55,7 +56,8 @@
 
 
 				</fieldset>
-			</form>
+			</form> -->
+			<?php echo do_shortcode('[contact-form-7 id="655" title="Fale Conosco" html_class="Form Form--style1"]'); ?>
 		</div>
 	</div>
 </section>

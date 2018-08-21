@@ -23,6 +23,10 @@ $mainSelector: '.Form';
 #{$mainSelector}{
 	font-family: $fontFamily;
 	& .Form-row{
+
+		& br{
+			display: none !important;
+		}
 		& .FigureIcon{
 			position: absolute;
 			display: block;
