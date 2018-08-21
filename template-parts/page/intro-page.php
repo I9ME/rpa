@@ -19,7 +19,7 @@ if( is_home() || is_front_page() ){
 				
 		</div>
 		<div class="Section-content">
-			<a href="<?php echo get_home_url(); ?>/cadastro/" class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter is-animating u-borderRadius5 Button--mediumSize hover" target="_blank">CADASTRE-SE!</a>
+			<a href="<?php echo get_home_url( $blog_id = 6, $path = null, $scheme = null ) ?>" class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter is-animating u-borderRadius5 Button--mediumSize hover" target="_blank">CADASTRE-SE!</a>
 		</div>
 
 		<!-- <div class="Section-content Section-content--form u-size16of24 u-alignCenterBox">
