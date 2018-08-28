@@ -4110,6 +4110,7 @@ th.u-isShown {
 
 .Navigation--menu.Navigation.Navigation--menu--main {
   top: 110px;
+  background: #561d9a;
 }
 
 @media screen and (min-width: 960px) {
@@ -4123,6 +4124,7 @@ th.u-isShown {
     justify-content: left;
   }
   .Navigation--menu.Navigation.Navigation--menu--main {
+    background: none;
     top: inherit !important;
     width: 100% !important;
   }
